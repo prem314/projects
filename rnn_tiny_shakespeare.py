@@ -106,6 +106,7 @@ class CharRNN(nn.Module):
         self.num_layers = num_layers
         
         # This describes 2 layers of NN with vocab_size and hidden_size number of nodes, respectively.
+        # nn.Embedding has no biases and expects the input to be one hot.
         self.embed = nn.Embedding(vocab_size, hidden_size)
         
         # LSTM layer: a common choice for sequence tasks
@@ -113,6 +114,7 @@ class CharRNN(nn.Module):
         # The second tells the size of each layer of the LSTM.
         self.lstm = nn.LSTM(hidden_size, hidden_size, num_layers, batch_first=True)
         # Final linear layer to map hidden states to the vocabulary space
+        # nn.Linear is a simple NN with weights and biases.
         self.fc = nn.Linear(hidden_size, vocab_size) # fc stands for fully connected.
     
     def forward(self, x, hidden):
