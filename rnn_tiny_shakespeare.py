@@ -1,11 +1,3 @@
-"""
-This code is supposed to be ran on kaggle. It needs https://www.kaggle.com/datasets/alexsam14/tinyshakespeare as input file to train the RNN
-"""
-
-
-
-
-
 import os
 import shutil
 
@@ -38,8 +30,6 @@ def move_txt():
 # Execute the function
 move_txt()
 
-
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -50,8 +40,8 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print("Using device:", device)
 
 # Hyperparameters
-batch_size   = 64
-seq_length   = 100
+batch_size   = 64 #the number of parallel computations over which gradients will be computed.
+seq_length   = 100 #The length of the input layer.
 hidden_size  = 256
 num_layers   = 2
 num_epochs   = 20
@@ -87,7 +77,11 @@ print(f"Train data length: {len(train_data)}, Val data length: {len(val_data)}")
 # ------------------------------
 # 2. Create a batch generator
 # ------------------------------
-def get_batch(data, batch_size, seq_length):
+
+
+
+def get_batch(data, batch_size, seq_length): 
+    # data = train_data, for example
     # Calculate how many full batches we can make
     num_batches = len(data) // (batch_size * seq_length)
     # Trim data so that it divides evenly into batches
@@ -141,7 +135,7 @@ criterion = nn.CrossEntropyLoss()
 # 4. Training Loop
 # ------------------------------
 # Determine number of training steps per epoch
-n_steps = len(train_data) // (batch_size * seq_length)
+n_steps = len(train_data) // (batch_size * seq_length) #n_steps is the number of steps that will be required to see the full data once.
 print("Training steps per epoch:", n_steps)
 
 for epoch in range(num_epochs):
