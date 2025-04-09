@@ -42,8 +42,8 @@ print("Using device:", device)
 # Hyperparameters
 batch_size   = 64 #the number of parallel computations over which gradients will be computed.
 seq_length   = 100 #The length of the input layer.
-hidden_size  = 256
-num_layers   = 2
+hidden_size  = 256 # No. of hidden units in the hidden layer of the LSTM. 
+num_layers   = 2 # How many stacked LSTM layers are there.
 num_epochs   = 20
 learning_rate = 0.002
 
@@ -56,7 +56,7 @@ with open('tinyshakespeare.txt', 'r') as f:
 
 # Build character-level vocabulary
 chars = sorted(list(set(text)))
-vocab_size = len(chars)
+vocab_size = len(chars) # The total number of characters the model plays with.
 print(f"Vocabulary size: {vocab_size}")
 
 # Mappings from characters to integers and vice versa
@@ -105,14 +105,18 @@ class CharRNN(nn.Module):
         self.hidden_size = hidden_size
         self.num_layers = num_layers
         
-        # Embedding layer to convert character indices into dense vectors
+        # This describes 2 layers of NN with vocab_size and hidden_size number of nodes, respectively.
         self.embed = nn.Embedding(vocab_size, hidden_size)
+        
         # LSTM layer: a common choice for sequence tasks
+        # The first hidden_size is there because it connects to the Embedding layer.
+        # The second tells the size of each layer of the LSTM.
         self.lstm = nn.LSTM(hidden_size, hidden_size, num_layers, batch_first=True)
         # Final linear layer to map hidden states to the vocabulary space
-        self.fc = nn.Linear(hidden_size, vocab_size)
+        self.fc = nn.Linear(hidden_size, vocab_size) # fc stands for fully connected.
     
     def forward(self, x, hidden):
+        #hidden from the past affects the output!
         # x: (batch, seq_length)
         x = self.embed(x)  # -> (batch, seq_length, hidden_size)
         out, hidden = self.lstm(x, hidden)
