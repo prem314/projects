@@ -79,18 +79,31 @@ print(f"Train data length: {len(train_data)}, Val data length: {len(val_data)}")
 # ------------------------------
 
 
+"""
+Summary of following function: data is a single row of integers to be trained on.
+batch_size is the number of parallel processors. seq_length is the context of the LLM.
+num_batch is the total number of runs till you exhaust all the data.
+You reshape data to contain batch_size no. of rows and num_batch * seq_length no of columns. Any extra elements are deleted.
+Each call of get_batch then gives you, a 2D array of input, a x, y = batch_size x seq_length matrix, where y is one unit shifted version of x.
+"""
+
 
 def get_batch(data, batch_size, seq_length): 
     # data = train_data, for example
     # Calculate how many full batches we can make
     num_batches = len(data) // (batch_size * seq_length)
     # Trim data so that it divides evenly into batches
-    data = data[:num_batches * batch_size * seq_length]
+
+    # num_batches has just been calculated. We are ignoring any part of the data that cannot fit into nice chunks of bacth_sizes * seq_length.
+    # This ensures that there is only as much content in the data that can be trained parallely in each round.
+    data = data[:num_batches * batch_size * seq_length] 
+    
     # Reshape into (batch_size, -1) so that each row is a continuous stream of tokens
+    # batch_size rows and remaining columns. Each column has num_batches * seq_length data. See: https://colab.research.google.com/drive/1oWYpDtPvKWImUXzPz4vyMpxXdEbOe98D?usp=sharing
     data = data.reshape((batch_size, -1))
     
     # Yield batches sequentially
-    for i in range(0, data.shape[1] - seq_length, seq_length):
+    for i in range(0, data.shape[1] - seq_length, seq_length): # data.shape[1] = seq_length * num_batches. This give [0, seq_length, 2 seq_length,..., seq_length * (num_batches - 1) ]
         x = data[:, i:i+seq_length]
         y = data[:, i+1:i+seq_length+1]  # targets are shifted by one
         yield torch.tensor(x, dtype=torch.long).to(device), torch.tensor(y, dtype=torch.long).to(device)
