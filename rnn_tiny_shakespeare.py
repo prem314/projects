@@ -127,13 +127,13 @@ class CharRNN(nn.Module):
         return out, hidden
     
     def init_hidden(self, batch_size):
-        # Initialize hidden state and cell state with zeros
+        # Initialize hidden state and cell state with zeros. Zeros is the keyword here.
         h0 = torch.zeros(self.num_layers, batch_size, self.hidden_size).to(device)
         c0 = torch.zeros(self.num_layers, batch_size, self.hidden_size).to(device)
         return (h0, c0)
 
 
-model = CharRNN(vocab_size, hidden_size, num_layers).to(device)
+model = CharRNN(vocab_size, hidden_size, num_layers).to(device) # num_layers is the no. of LSTM layers
 optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 criterion = nn.CrossEntropyLoss()
 
