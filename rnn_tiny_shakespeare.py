@@ -164,7 +164,10 @@ for epoch in range(num_epochs):
 
     # Create a new batch generator for each epoch
     for step, (x_batch, y_batch) in enumerate(get_batch(train_data, batch_size, seq_length)):
+        # enumerate returns a list of index and the corresponding x and y values, the input of one loop of training and the expected output.
+        
         # Detach hidden state to prevent backpropagating through the entire history
+        #This prevents infinite loop in back-prop?
         hidden = tuple([h.detach() for h in hidden])
         optimizer.zero_grad()
         outputs, hidden = model(x_batch, hidden)
