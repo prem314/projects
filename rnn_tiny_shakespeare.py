@@ -168,6 +168,7 @@ for epoch in range(num_epochs):
         
         # Detach hidden state to prevent backpropagating through the entire history
         #This prevents infinite loop in back-prop?
+        # This back-prop calc for RNN is complicated and I need to understand exactly how it is done in terms of the LSTM equations.
         hidden = tuple([h.detach() for h in hidden])
         optimizer.zero_grad()
         outputs, hidden = model(x_batch, hidden)
