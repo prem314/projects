@@ -62,6 +62,10 @@ Simplify[TMathCalc - TMathIndividual]
 Difference = (16 I n p1^2 p3^2 \[Kappa]^2 \[Mu]0)/((\[CapitalLambda]-m \[Mu]0) (\[CapitalLambda]+m \[Mu]0) (\[CapitalLambda]-n \[Mu]0) (\[CapitalLambda]+n \[Mu]0) (m \[Mu]0+I \[CapitalOmega]) (m \[Mu]0+n \[Mu]0+I \[CapitalOmega]));
 
 
+(* ::Text:: *)
+(*The following code from @Erosannin shows that sum of limits is the correct result.*)
+
+
 Block[{p1= 1, p2= 5, p3= 2, m= 1, \[Mu]0= 3,t=10000,\[CapitalOmega]= 1,n=2/5,\[CapitalLambda]= 1/6,\[Kappa]= 1/2},{N[T,1000],N[Total[TList],1000]}]//Chop//N
 (*{-3.28239, -3.28239}*)
 
