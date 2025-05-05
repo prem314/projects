@@ -6,6 +6,9 @@ Get[FileNameJoin[{NotebookDirectory[],"T.mx"}]]
 TTransForm[expr_]:= ReleaseHold[Expand[TrigToExp[expr]] /. Exp[x_] -> Exp[HoldForm[Simplify[x, Assumptions->DrudeAssumptions]]]]
 
 
+TTransForm[T]
+
+
 Clear[randomValue]
 
 randomValue[expr_, exemptVars_ : {}] := Module[
