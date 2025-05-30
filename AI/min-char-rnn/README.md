@@ -1,3 +1,10 @@
+# Note:
+
+This code was written in python 2. I will translate it into python 3. But in the meantime, here is what Gemini 2.5 did. I am working on this code at followin colab notebook.
+
+https://colab.research.google.com/drive/1-73m9t4bsBFhqXf7W7pa6OHt_rvy5xOU?usp=sharing
+
+
 # min-char-rnn
 Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
 
@@ -56,6 +63,8 @@ Because in t, most of the value is 0, so, we could rewrite the above equation as
 $$H(t, y) = -t_{i}logy_{i}$$
 
 Here i is the indice of 1 in vector t.
+
+Prem: Not quite clear what is being said here. Read the code and figure out.
 
 # Train RNN Model
 

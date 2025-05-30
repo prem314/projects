@@ -19,6 +19,8 @@ data = open('input.txt', 'r').read() # should be simple plain text file
 # use set() to count the vacab size
 chars = list(set(data))
 data_size, vocab_size = len(data), len(chars)
+
+#Prem: what ancient script is this?
 print 'data has %d characters, %d unique.' % (data_size, vocab_size)
 
 # dictionary to convert char to idx, idx to char
@@ -37,7 +39,7 @@ learning_rate = 1e-1
 ## self.h = np.tanh(np.dot(self.W_hh, self.h) + np.dot(self.W_xh, x))
 ## # compute the output vector
 ## y = np.dot(self.W_hy, self.h)
-Wxh = np.random.randn(hidden_size, vocab_size)*0.01 # input to hidden
+Wxh = np.random.randn(hidden_size, vocab_size)*0.01 # input to hidden #Randomly initialized.
 Whh = np.random.randn(hidden_size, hidden_size)*0.01 # hidden to hidden
 Why = np.random.randn(vocab_size, hidden_size)*0.01 # hidden to output
 bh = np.zeros((hidden_size, 1)) # hidden bias
@@ -145,7 +147,7 @@ def sample(h, seed_ix, n):
 
   return ixes
 
-
+# Prem: The code starts here
 ## iterator counter
 n = 0
 ## data pointer
