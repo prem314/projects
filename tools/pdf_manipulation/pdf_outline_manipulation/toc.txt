@@ -1,0 +1,339 @@
+THE THEORY OF OPEN QUANTUM SYSTEMS - Page 1
+Half-title - Page 2
+Title Page - Page 3
+Copyright Page - Page 4
+Dedication - Page 6
+Preface - Page 8
+    Bibliography - Page 12
+Acknowledgements - Page 14
+Contents - Page 16
+Part I: Probability in classical and quantum physics - Page 24
+    Chapter 1. Classical probability theory and stochastic processes - Page 26
+        1.1 The probability space - Page 26
+            1.1.1 The σ-algebra of events - Page 26
+            1.1.2 Probability measures and Kolmogorov axioms - Page 27
+            1.1.3 Conditional probabilities and independence - Page 28
+        1.2 Random variables - Page 28
+            1.2.1 Definition of random variables - Page 29
+            1.2.2 Transformation of random variables - Page 31
+            1.2.3 Expectation values and characteristic function - Page 32
+        1.3 Stochastic processes - Page 34
+            1.3.1 Formal definition of a stochastic process - Page 34
+            1.3.2 The hierarchy of joint probability distributions - Page 35
+        1.4 Markov processes - Page 37
+            1.4.1 The Chapman–Kolmogorov equation - Page 37
+            1.4.2 Differential Chapman–Kolmogorov equation - Page 40
+            1.4.3 Deterministic processes and Liouville equation - Page 42
+            1.4.4 Jump processes and the master equation - Page 44
+                1.4.4.1 Differential Chapman–Kolmogorov equation - Page 44
+                1.4.4.2 The homogeneous and the non-homogeneous Poisson process - Page 46
+                1.4.4.3 Increments of the Poisson process - Page 50
+            1.4.5 Diffusion processes and Fokker–Planck equation - Page 51
+        1.5 Piecewise deterministic processes - Page 55
+            1.5.1. The Liouville master equation - Page 56
+            1.5.2 Waiting time distribution and sample paths - Page 56
+            1.5.3 Path integral representation of PDPs - Page 60
+            1.5.4 Stochastic calculus for PDPs - Page 62
+                1.5.4.1 Itô calculus for diffusion processes - Page 62
+                1.5.4.2 Itô calculus for PDPs - Page 65
+        1.6 Lévy processes - Page 68
+            1.6.1 Translation invariant processes - Page 69
+            1.6.2 The Lévy–Khintchine formula - Page 70
+            1.6.3 Stable Lévy processes - Page 74
+                1.6.3.1 Stable distributions and scaling relations - Page 75
+                1.6.3.2 Characteristic exponents of stable Lévy processes - Page 77
+        References - Page 80
+    Chapter 2. Quantum probability - Page 82
+        2.1 The statistical interpretation of quantum mechanics - Page 82
+            2.1.1 Self-adjoint operators and the spectral theorem - Page 82
+            2.1.2 Observables and random variables - Page 86
+            2.1.3 Pure states and statistical mixtures - Page 88
+                2.1.3.1 The statistical formulae of quantum mechanics - Page 88
+                2.1.3.2 Properties of the density matrix - Page 90
+                2.1.3.3 The non-existence of dispersion-free ensembles - Page 93
+            2.1.4 Joint probabilities in quantum mechanics - Page 93
+        2.2 Composite quantum systems - Page 97
+            2.2.1 Tensor product - Page 98
+            2.2.2 Schmidt decomposition and entanglement - Page 100
+        2.3 Quantum entropies - Page 102
+            2.3.1 Von Neumann entropy - Page 102
+            2.3.2 Relative entropy - Page 104
+            2.3.3 Linear entropy - Page 105
+        2.4 The theory of quantum measurement - Page 106
+            2.4.1 Ideal quantum measurements - Page 106
+            2.4.2 Operations and effects - Page 108
+            2.4.3 Representation theorem for quantum operations - Page 110
+            2.4.4 Quantum measurement and entropy - Page 115
+            2.4.5 Approximate measurements - Page 116
+            2.4.6 Indirect quantum measurements - Page 119
+            2.4.7 Quantum non-demolition measurements - Page 125
+        References - Page 127
+Part II: Density matrix theory - Page 130
+    Chapter 3. Quantum master equations - Page 132
+        3.1 Closed and open quantum systems - Page 133
+            3.1.1 The Liouville–von Neumann equation - Page 133
+            3.1.2 Heisenberg and interaction picture - Page 135
+            3.1.3 Dynamics of open systems - Page 138
+        3.2 Quantum Markov processes - Page 140
+            3.2.1 Quantum dynamical semigroups - Page 140
+            3.2.2 The Markovian quantum master equation - Page 142
+            3.2.3 The adjoint quantum master equation - Page 147
+            3.2.4 Multi-time correlation functions - Page 148
+            3.2.5 Irreversibility and entropy production - Page 151
+        3.3 Microscopic derivations - Page 153
+            3.3.1 Weak coupling Limit - Page 153
+            3.3.2 Relaxation to equilibrium - Page 160
+            3.3.3 Singular-coupling limit - Page 161
+            3.3.4 Low-density limit - Page 162
+        3.4 The quantum optical master equation - Page 164
+            3.4.1 Matter in quantized radiation fields - Page 164
+                3.4.1.1 Performing the Born–Markov approximation - Page 165
+                3.4.1.2 Thermal reservoir - Page 167
+            3.4.2 Decay of a two-level system - Page 169
+            3.4.3 Decay into a squeezed field vacuum - Page 172
+            3.4.4 More general reservoirs - Page 175
+            3.4.5 Resonance fluorescence - Page 177
+                3.4.5.1 Equation of motion for the Bloch vector - Page 177
+                3.4.5.2 Spectrum of resonance fluorescence - Page 181
+            3.4.6 The damped harmonic oscillator - Page 183
+                3.4.6.1 Pauli master equation and stationary solution - Page 184
+                3.4.6.2 Adjoint master equation - Page 185
+                3.4.6.3 Coherent state representation - Page 185
+        3.5 Non-selective, continuous measurements - Page 189
+            3.5.1 The quantum Zeno effect - Page 189
+            3.5.2 Density matrix equation - Page 190
+        3.6 Quantum Brownian motion - Page 195
+            3.6.1 The Caldeira–Leggett model - Page 195
+            3.6.2 High-temperature master equation - Page 196
+                3.6.2.1 Derivation of the master equation - Page 197
+                3.6.2.2 Approximate stationary solution - Page 202
+                3.6.2.3 Equations of motion for mean values and variances - Page 203
+            3.6.3 The exact Heisenberg equations of motion - Page 205
+                3.6.3.1 Derivation of the Heisenberg equations - Page 206
+                3.6.3.2 Quadratic potentials - Page 208
+                3.6.3.3 Free Brownian motion - Page 209
+                3.6.3.4 Response function, equilibrium correlation function and the fluctuation dissipation theorem - Page 212
+            3.6.4 The influence functional - Page 215
+                3.6.4.1 The influence super-operator - Page 215
+                3.6.4.2 Path integral representation - Page 216
+                3.6.4.3 Classical equation of motion - Page 219
+                3.6.4.4 Determining the path integral for harmonic potentials - Page 220
+                3.6.4.5 Solution of the Caldeira–Leggett master equation - Page 222
+        3.7 Non-linear quantum master equations - Page 224
+            3.7.1 Quantum Boltzmann equation - Page 224
+            3.7.2 Mean field master equations - Page 226
+            3.7.3 Mean field laser equations - Page 228
+            3.7.4 Non-linear Schrödinger equation - Page 231
+            3.7.5 Super-radiance - Page 233
+        References - Page 239
+    Chapter 4. Decoherence - Page 242
+        4.1 The decoherence function - Page 243
+        4.2 An exactly solvable model - Page 248
+            4.2.1 Time evolution of the total system - Page 248
+            4.2.2 Decay of coherences and the decoherence factor - Page 250
+            4.2.3 Coherent subspaces and system-size dependence - Page 254
+        4.3 Markovian mechanisms of decoherence - Page 255
+            4.3.1 The decoherence rate - Page 256
+            4.3.2 Quantum Brownian motion - Page 257
+            4.3.3 Internal degrees of freedom - Page 258
+            4.3.4 Scattering of particles - Page 260
+        4.4 The damped harmonic oscillator - Page 265
+            4.4.1 Vacuum decoherence - Page 265
+            4.4.2 Thermal noise - Page 269
+        4.5 Electromagnetic field states - Page 274
+            4.5.1 Atoms interacting with a cavity field mode - Page 274
+            4.5.2 Schrödinger cat states - Page 280
+                4.5.2.1 Initial state of A1 and interaction in R1 - Page 280
+                4.5.2.2 Atom field interaction in C - Page 280
+                4.5.2.3 Interaction in R2 and measurement on A 1 - Page 281
+                4.5.2.4 Field damping in C - Page 281
+                4.5.2.5 Initial state of A2 and interaction in R1 Atom - Page 282
+                4.5.2.6 Atom field interaction in C - Page 282
+                4.5.2.7 Interaction in R2 and measurement on A2 - Page 282
+        4.6 Caldeira–Leggett model - Page 285
+            4.6.1 General decoherence formula - Page 286
+            4.6.2 Ohmic environments - Page 288
+                4.6.2.1 High-temperature limit - Page 288
+                4.6.2.2 Harmonic oscillator - Page 289
+        4.7 Decoherence and quantum measurement - Page 292
+            4.7.1 Dynamical selection of a pointer basis - Page 293
+            4.7.2 Dynamical model for a quantum measurement - Page 298
+        References - Page 301
+Part III: Stochastic processes in Hilbert space - Page 304
+    Chapter 5. Probability distributions on Hilbert space - Page 306
+        5.1 The state vector as a random variable in Hilbert space - Page 306
+            5.1.1 A new type of quantum mechanical ensemble - Page 306
+            5.1.2 Stern–Gerlach experiment - Page 311
+        5.2 Probability density functionals on Hilbert space - Page 314
+            5.2.1 Probability measures on Hilbert space - Page 314
+            5.2.2 Distributions on projective Hilbert space - Page 317
+            5.2.3 Expectation values - Page 320
+        5.3 Ensembles of mixtures - Page 322
+            5.3.1 Probability density functionals on state space - Page 322
+            5.3.2 Description of selective quantum measurements - Page 324
+        References - Page 325
+    Chapter 6. Stochastic dynamics in Hilbert space - Page 326
+        6.1 Dynamical semigroups and PDPs in Hilbert space - Page 327
+            6.1.1 Reduced system dynamics as a PDP - Page 327
+                6.1.1.1 Closed systems - Page 327
+                6.1.1.2 Unravelling the quantum master equation - Page 328
+                6.1.1.3 The Liouville master equation - Page 329
+                6.1.1.4 Deterministic evolution - Page 330
+                6.1.1.5 Jump process and waiting time distribution - Page 330
+                6.1.1.6 Stochastic differential equation - Page 332
+                6.1.1.7 Quantum master equation - Page 333
+            6.1.2 The Hilbert space path integral - Page 334
+            6.1.3 Diffusion approximation - Page 337
+            6.1.4 Multi-time correlation functions - Page 339
+                6.1.4.1 Reduced Heisenberg picture operators - Page 339
+                6.1.4.2 Multi-time correlations - Page 342
+        6.2 Stochastic representation of continuous measurements - Page 343
+            6.2.1 Stochastic time evolution of Ep-ensembles - Page 344
+            6.2.2 Short-time behaviour of the propagator - Page 345
+        6.3 Direct photodetection - Page 347
+            6.3.1 Derivation of the PDP - Page 347
+            6.3.2 Path integral solution - Page 353
+        6.4 Homodyne photo detection - Page 358
+            6.4.1 Derivation of the PDP for homodyne detection - Page 359
+            6.4.2 Stochastic Schrödinger equation - Page 363
+        6.5 Heterodyne photodetection - Page 365
+            6.5.1 Stochastic Schrödinger equation - Page 365
+            6.5.2 Stochastic collapse models - Page 368
+        6.6 Stochastic density matrix equations - Page 371
+        6.7 Photodetection on a field mode - Page 373
+            6.7.1 The photocounting formula - Page 373
+                6.7.1.1 Fock state - Page 375
+                6.7.1.2 Coherent state - Page 375
+                6.7.1.3 Schrödinger cat initial states - Page 376
+            6.7.2 QND measurement of a field mode - Page 377
+        References - Page 381
+    Chapter 7. The stochastic simulation method - Page 384
+        7.1 Numerical simulation algorithms for PDPs - Page 385
+            7.1.1 Estimation of expectation values - Page 385
+            7.1.2 Generation of realizations of the process - Page 386
+            7.1.3 Determination of the waiting time - Page 387
+                7.1.3.1 Exponential waiting time distributions - Page 388
+                7.1.3.2 Multi-exponential waiting time distributions - Page 388
+                7.1.3.3 General waiting time distributions - Page 389
+            7.1.4 Selection of the jumps - Page 390
+        7.2 Algorithms for stochastic Schrödinger equations - Page 390
+            7.2.1 General remarks on convergence - Page 391
+            7.2.2 The Euler scheme - Page 393
+            7.2.3 The Heun scheme - Page 393
+            7.2.4 The fourth-order Runge–Kutta scheme - Page 393
+            7.2.5 A second-order weak scheme - Page 395
+        7.3 Examples - Page 396
+            7.3.1 The damped harmonic oscillator - Page 396
+                7.3.1.1 Simulating the PDP - Page 396
+                7.3.1.2 Simulating the SSE - Page 398
+            7.3.2 The driven two-level system - Page 400
+        7.4 A case study on numerical performance - Page 403
+            7.4.1 Numerical efficiency and scaling laws - Page 404
+            7.4.2 The damped driven Morse oscillator - Page 406
+                7.4.2.1 Description of the model - Page 406
+                7.4.2.2 Simulation results - Page 408
+        References - Page 412
+    Chapter 8. Applications to quantum optical systems - Page 413
+        8.1 Continuous measurements in QED - Page 414
+            8.1.1 Constructing the microscopic Hamiltonian - Page 414
+            8.1.2 Determination of the QED operation - Page 416
+            8.1.3 Stochastic dynamics of rnultipole radiation - Page 419
+            8.1.4 Representation of incomplete measurements - Page 421
+        8.2 Dark state resonances - Page 424
+            8.2.1 Waiting time distribution and trapping state - Page 424
+            8.2.2 Measurement schemes and stochastic evolution - Page 428
+        8.3 Laser cooling and Lévy processes - Page 432
+            8.3.1 Dynamics of the atomic wave function - Page 433
+            8.3.2 Coherent population trapping - Page 439
+            8.3.3 Waiting times and momentum distributions - Page 444
+        8.4 Strong field interaction and the Floquet picture - Page 451
+            8.4.1 Floquet theory - Page 452
+            8.4.2 Stochastic dynamics in the Floquet picture - Page 454
+            8.4.3 Spectral detection and the dressed atom - Page 457
+        References - Page 460
+Part IV: Non-Markovian quantum processes - Page 462
+    Chapter 9. Projection operator techniques - Page 464
+        9.1 The Nakajima–Zwanzig projection operator technique - Page 465
+            9.1.1 Projection operators - Page 465
+            9.1.2 The Nakajima–Zwanzig equation - Page 466
+        9.2 The time-convolutionless projection operator method - Page 468
+            9.2.1 The time-local master equation - Page 469
+            9.2.2 Perturbation expansion of the TCL generator - Page 470
+            9.2.3 The cumulant expansion - Page 474
+            9.2.4 Perturbation expansion of the inhomogeneity - Page 475
+            9.2.5 Error analysis - Page 478
+        9.3 Stochastic unravelling in the doubled Hilbert space - Page 479
+        References - Page 481
+    Chapter 10. Non-Markovian dynamics in physical systems - Page 483
+        10.1 Spontaneous decay of a two-level system - Page 484
+            10.1.1 Exact master equation and TCL generator - Page 484
+            10.1.2 Jaynes–Cummings model on resonance - Page 489
+            10.1.3 Jaynes–Cummings model with detuning - Page 494
+            10.1.4 Spontaneous decay into a photonic band gap - Page 497
+        10.2 The damped harmonic oscillator - Page 497
+            10.2.1 The model and frequency renormalization - Page 498
+            10.2.2 Factorizing initial conditions - Page 500
+            10.2.3 The stationary state - Page 504
+            10.2.4 Non-factorizing initial conditions - Page 506
+            10.2.5 Disregarding the inhomogeneity - Page 511
+        10.3 The spin-boson system - Page 513
+            10.3.1 Microscopic model - Page 513
+            10.3.2 Relaxation of an initially factorizing state - Page 514
+            10.3.3 Equilibrium correlation functions - Page 518
+            10.3.4 Transition from coherent to incoherent motion - Page 519
+        References - Page 520
+Part V: Relativistic quantum processes - Page 522
+    Chapter 11. Measurements in relativistic quantum mechanics - Page 524
+        11.1 The Schwinger–Tomonaga equation - Page 525
+            11.1.1 States as functionals of spacelike hypersurfaces - Page 525
+            11.1.2 Foliations of space-time - Page 529
+        11.2 The measurement of local observables - Page 530
+            11.2.1 The operation for a local measurement - Page 531
+            11.2.2 Relativistic state reduction - Page 534
+            11.2.3 Multivalued space-time amplitudes - Page 537
+            11.2.4 The consistent hierarchy of joint probabilities - Page 540
+            11.2.5 EPR correlations - Page 544
+            11.2.6 Continuous measurements - Page 546
+        11.3 Non-local measurements and causality - Page 549
+            11.3.1 Entangled quantum probes - Page 550
+            11.3.2 Non-local measurement by EPR probes - Page 553
+            11.3.3 Quantum state verification - Page 559
+            11.3.4 Non-local operations and the causality principle - Page 561
+                11.3.4.1 Formulation of the causality principle - Page 562
+                11.3.4.2 Theorem on the erasing of local information - Page 564
+            11.3.5 Restrictions on the measurability of operators - Page 567
+            11.3.6 QND verification of non-local states - Page 573
+            11.3.7 Preparation of non-local states - Page 577
+            11.3.8 Exchange measurements - Page 578
+        11.4 Quantum teleportation - Page 580
+            11.4.1 Coherent transfer of quantum states - Page 580
+            11.4.2 Teleportation and Bell-state measurement - Page 583
+            11.4.3 Experimental realization - Page 585
+        References - Page 588
+    Chapter 12. Open quantum electrodynamics - Page 591
+        12.1 Density matrix theory for QED - Page 592
+            12.1.1 Field equations and correlation functions - Page 592
+                12.1.1.1 Maxwell equations and commutation relations - Page 592
+                12.1.1.2 The anticommutator function - Page 595
+                12.1.1.3 The correlation function of the electric field - Page 597
+            12.1.2 The reduced density matrix - Page 599
+        12.2 The influence functional of QED - Page 600
+            12.2.1 Elimination of the radiation degrees of freedom - Page 600
+                12.2.1.1 Eliminating the time ordering of the field variables - Page 600
+                12.2.1.2 The influence super-operator - Page 602
+            12.2.2 Vacuum-to-vacuum amplitude - Page 606
+            12.2.3 Second-order equation of motion - Page 608
+                12.2.3.1 The quantum optical limit - Page 608
+                12.2.3.2 Mass renormalization and Lamb shift - Page 610
+        12.3 Decoherence by emission of bremsstrahlung - Page 611
+            12.3.1 Introducing the decoherence functional - Page 612
+            12.3.2 Physical interpretation - Page 616
+            12.3.3 Evaluation of the decoherence functional - Page 619
+            12.3.4 Path integral approach - Page 630
+                12.3.4.1 Path integral representation and classical equations of motion - Page 631
+                12.3.4.2 Determination of the propagator function - Page 635
+                12.3.4.3 Wave packet dynamics - Page 636
+        12.4 Decoherence of many-particle states - Page 637
+        References - Page 640
+Index - Page 642
+Back Cover - Page 649
