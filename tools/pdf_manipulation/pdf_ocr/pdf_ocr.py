@@ -1,5 +1,9 @@
 """
-There is an another solution using ocrmypdf, but the results are similar
+There is an another solution using ocrmypdf, but the results are similar.
+
+This code destroys the embedded data like the outline.
+
+OCRmypdf version also fails sometimes.
 """
 
 
@@ -30,7 +34,11 @@ def make_pdf_searchable(input_pdf_path, output_pdf_path):
         # Convert PDF to a list of PIL images
         # You might need to specify poppler_path for Windows if not in PATH
         # e.g., images = convert_from_path(input_pdf_path, poppler_path=r"C:\path\to\poppler-xxx\bin")
-        images = convert_from_path(input_pdf_path)
+        images = convert_from_path(input_pdf_path
+#    ,dpi=150,           # Lower the resolution from the default
+#    fmt='jpeg'         # Use JPEG format instead of the default (often PPM)
+)
+
         
         pdf_writer = PdfWriter()
         
