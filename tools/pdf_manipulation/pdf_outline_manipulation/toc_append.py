@@ -1,4 +1,5 @@
 import fitz
+import os
 
 def read_toc_from_file(toc_file_name, offset=0):
     """
@@ -95,8 +96,21 @@ if __name__ == "__main__":
     # Prompt for the PDF file name
     pdf_file_name = input("Enter the name of the PDF file (without .pdf extension): ").strip()
     if not pdf_file_name:
-        print("Error: PDF file name cannot be empty.")
-        sys.exit(1)
+        print("No name entered. Searching for the first available PDF file...")
+        # Iterate through all files and directories in the current folder
+        for file in os.listdir('.'):
+            # Check if the item is a file and ends with .pdf (case-insensitive)
+            if os.path.isfile(file) and file.lower().endswith('.pdf'):
+                # os.path.splitext() splits 'filename.pdf' into ('filename', '.pdf')
+                # We take the first part [0] of that tuple.
+                pdf_file_name = os.path.splitext(file)[0]
+                print(f"Found and selected: '{pdf_file_name}.pdf'")
+                break  # Exit the loop after finding the first matching file
+        
+        # This check handles the case where no input was given AND no PDF was found
+        if not pdf_file_name:
+            print("Error: No PDF file found in the directory.")
+    
     
     # Prompt for the TOC file name
     toc_file_name = input("Enter the name of the TOC file (default 'toc.txt'): ").strip()
@@ -106,10 +120,10 @@ if __name__ == "__main__":
     # Prompt for the page number offset
     offset_input = input("Enter the page number offset (e.g., 0 if no offset, 5 if first TOC page starts at page 6): ").strip()
     try:
-        offset = int(offset_input) if offset_input else 0
+        offset = int(offset_input) + 1 if offset_input else 1 # I artificially put offset of +1 because for some reason, the code has a default ofset of -1.
     except ValueError:
         print("Invalid input for offset. Using offset = 0.")
-        offset = 0
+        offset = 1
     
     # Create bookmarks from the TOC
     create_bookmarks_from_toc(pdf_file_name, toc_file_name, offset)

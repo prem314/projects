@@ -1,5 +1,7 @@
 # PDF Table of Contents (TOC) Utility
 
+This code helps you to embed TOC in any PDF using AI. AI reads the pdf, gives a well structured, python readable info about the TOC, which can then be embedded in the PDF. 
+
 This utility consists of two Python scripts designed to work with the table of contents (TOC) of PDF files:
 
 1. **toc_fetch.py**: Extracts the TOC from a given PDF file and saves it to a text file (`toc.txt`).
@@ -39,7 +41,7 @@ Run both the script and follow the instructions to enter the name of the PDF fil
 - The scripts assume the PDF file is accessible in the current working directory or a path is provided.
 
 
-## Generating toc.txt using AI
+## Generating toc.txt using AI: The AI prompt
 
   - Copy the content of the contents from the pdf of a pdf and then give the following prompt to a good AI like o1-mini
   
