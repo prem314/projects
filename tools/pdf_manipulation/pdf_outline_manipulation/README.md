@@ -6,7 +6,8 @@ This code helps you to embed TOC in any PDF using AI. AI reads the pdf, gives a 
 
 Step 1: Paste the pdf and following prompt in any competent LLM like gemini 2.5 pro:
 
-"
+
+<pre>
 Convert the following outline of the PDF (with page number details) into a well structured form that I will tell you about. Give the output in codeblock so that I can copy it easily to a .txt file with the structure. I need it in a well structured form because then I will use a python code to embed the outline into the corresponding .pdf of the book. Here is the details of the outline copied directly from the pdf. The copied text is not in good form and comes with errors. recognize these errors and fix them.
 
 <content details>
@@ -25,7 +26,7 @@ List of symbols - Page 12
 
 
 Think carefully. Take your time. And do a good job. I have full faith in you.
-"
+</pre>
 
 Step 2: Paste the TOC output given by LLM into toc.txt
 
