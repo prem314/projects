@@ -10,34 +10,19 @@ Step 1: Paste the pdf and following prompt in any competent LLM like gemini 2.5 
 <pre>
 Read the PDF attached and determine its outline structure, that is, which section is at which page, etc.
 
-
 Then convert the outline of the PDF (with page number details) into a well structured form that I will tell you about. Give the output in codeblock so that I can copy it easily to a .txt file with the structure. I need it in a well structured form because then I will use a python code to embed the outline into the corresponding .pdf of the book.
-
-
-
 
 I want it in the following format. Indentation to specify the subsection heirarchy and Page to specify the page number details. The following is just for reference and is not from the PDF attached.
 
-
 Contents - Page 6
-
 List of symbols - Page 12
-
 1 First and second quantization - Page 18
-
-1.1 First quantization, single-particle systems - Page 19
-
-1.2 First quantization, many-particle systems - Page 21
-
-1.2.1 Permutation symmetry and indistinguishability - Page 22
-
-1.2.2 The single-particle states as basis states - Page 23
-
-1.2.3 Operators in first quantization - Page 24
-
-1.3 Second quantization, basic concepts - Page 26
-
-
+    1.1 First quantization, single-particle systems - Page 19
+    1.2 First quantization, many-particle systems - Page 21
+        1.2.1 Permutation symmetry and indistinguishability - Page 22
+        1.2.2 The single-particle states as basis states - Page 23
+        1.2.3 Operators in first quantization - Page 24
+    1.3 Second quantization, basic concepts - Page 26
 
 Think carefully. Take your time. And do a good job. I have full faith in you. 
 </pre>
