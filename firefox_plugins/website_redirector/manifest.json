@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Website Redirector",
+  "version": "1.0",
+  "description": "Redirects distracting websites to a URL you choose.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  }
+}

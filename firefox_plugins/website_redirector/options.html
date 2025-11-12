@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Website Redirector Settings</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 2rem auto;
+            max-width: 640px;
+            line-height: 1.5;
+        }
+
+        label {
+            display: block;
+            margin-top: 1rem;
+            font-weight: 600;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.25rem;
+            font-size: 1rem;
+        }
+
+        button {
+            margin-top: 1.5rem;
+            padding: 0.6rem 1.25rem;
+            font-size: 1rem;
+        }
+
+        #status {
+            margin-top: 0.75rem;
+            color: #006400;
+            min-height: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Website Redirector</h1>
+    <p>Enter the sites you want redirecting (one URL or domain per line, e.g. <code>https://www.youtube.com/</code> or <code>reddit.com</code>) and the URL to send them to. All pages under those sites will be blocked automatically.</p>
+
+    <form id="settings-form">
+        <label for="redirectUrl">Redirect to</label>
+        <input type="url" id="redirectUrl" name="redirectUrl" required placeholder="https://example.com/focus">
+
+        <label for="blockedUrls">Sites to redirect (one per line)</label>
+        <textarea id="blockedUrls" name="blockedUrls" rows="8" placeholder="https://www.youtube.com/&#10;reddit.com"></textarea>
+
+        <button type="submit">Save Settings</button>
+        <p id="status" role="status" aria-live="polite"></p>
+    </form>
+
+    <script src="options.js"></script>
+</body>
+</html>
