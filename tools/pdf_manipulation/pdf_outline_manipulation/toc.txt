@@ -1,0 +1,17 @@
+Abstract - Page 1
+Main Text - Page 1
+    Introduction and Motivation for Momentum-Conserving CISS Interfaces - Page 1
+    Helical Waveguide Hamiltonian, Eigenstates, and Dispersion (Figure 1) - Page 2
+    Extended Interface Coupling Model and Momentum Filtering Criteria - Page 2
+    Perturbative Transition Probabilities and Single-Scatter Polarization Metrics - Page 3
+    Numerical Polarization Maps vs Interface Width and Repeated Scatterings (Figure 2) - Page 4
+    Multi-Helix Device Geometries, Coupling Angles, and Polarization Amplification (Figure 3) - Page 4
+    Robustness Assessment, Experimental Outlook, and Conclusions - Page 5
+Associated Content - Page 5
+    Supporting Information Overview - Page 5
+Author Information - Page 5
+    Corresponding Author - Page 5
+    Authors and Affiliations - Page 5
+Notes - Page 5
+Acknowledgments - Page 5
+References - Page 5
