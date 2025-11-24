@@ -13,15 +13,17 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import os
 import pathlib
 import sys
+import time
 from typing import Iterable, Tuple
 
 import requests
 
 
 API_URL = "https://api.semanticscholar.org/graph/v1/paper/{paper_id}"
-API_FIELDS = "citations.title,citations.abstract,citations.externalIds"
+API_FIELDS = "citations.title,citations.abstract,citations.externalIds,citations.authors"
 
 
 def normalize_paper_id(raw: str) -> str:
@@ -37,40 +39,61 @@ def normalize_paper_id(raw: str) -> str:
     return f"ARXIV:{text}"
 
 
-def fetch_citations(paper_id: str):
-    """Fetch citing papers with title/abstract/externalIds; return JSON or None."""
+def fetch_citations(paper_id: str, retries: int = 3, backoff: float = 3.0):
+    """Fetch citing papers with retries on rate-limit; return JSON or None."""
     url = API_URL.format(paper_id=paper_id)
-    try:
-        resp = requests.get(url, params={"fields": API_FIELDS}, timeout=20)
-        if resp.status_code == 404:
-            print("Paper not found. Check the DOI/arXiv ID.", file=sys.stderr)
-            return None
-        resp.raise_for_status()
-        return resp.json()
-    except Exception as e:  # noqa: BLE001
-        print(f"Error fetching paper: {e}", file=sys.stderr)
-        return None
+    headers = {"User-Agent": "paper-search/1.0 (contact: user@example.com)"}
+    api_key = os.getenv("S2_API_KEY") or os.getenv("SEMANTIC_SCHOLAR_API_KEY")
+    if api_key:
+        headers["x-api-key"] = api_key
+    for attempt in range(retries + 1):
+        try:
+            resp = requests.get(url, params={"fields": API_FIELDS}, headers=headers, timeout=30)
+            if resp.status_code == 404:
+                print("Paper not found. Check the DOI/arXiv ID.", file=sys.stderr)
+                return None
+            if resp.status_code == 429:
+                retry_after = float(resp.headers.get("Retry-After", backoff))
+                if attempt == retries:
+                    print("Rate limited and retries exhausted.", file=sys.stderr)
+                    return None
+                wait = retry_after * (attempt + 1)
+                print(f"Rate limited (429). Waiting {wait:.1f}s before retry {attempt+1}/{retries}...", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            return resp.json()
+        except Exception as e:  # noqa: BLE001
+            if attempt == retries:
+                print(f"Error fetching paper after retries: {e}", file=sys.stderr)
+                return None
+            wait = backoff * (attempt + 1)
+            print(f"Error fetching paper: {e}; retrying in {wait:.1f}s", file=sys.stderr)
+            time.sleep(wait)
+    return None
 
 
-def iter_citing_metadata(data) -> Iterable[Tuple[str, str, str]]:
-    """Yield (label, title, abstract) for each citing paper."""
+def iter_citing_metadata(data) -> Iterable[Tuple[str, str, str, str]]:
+    """Yield (label, title, authors, abstract) for each citing paper."""
     for citation in data.get("citations", []) or []:
         external = citation.get("externalIds", {}) or {}
         doi = external.get("DOI")
         arxiv = external.get("ArXiv")
         label = doi or (f"arXiv:{arxiv}" if arxiv else "(no id)")
         title = citation.get("title") or ""
+        authors = ", ".join(a.get("name", "") for a in citation.get("authors", []) if a.get("name"))
         abstract = citation.get("abstract") or ""
-        yield label, title, abstract
+        yield label, title, authors, abstract
 
 
-def write_metadata(records: Iterable[Tuple[str, str, str]], out_path: pathlib.Path) -> int:
+def write_metadata(records: Iterable[Tuple[str, str, str, str]], out_path: pathlib.Path) -> int:
     count = 0
     with out_path.open("w", encoding="utf-8") as f:
-        for idx, (label, title, abstract) in enumerate(records, start=1):
+        for idx, (label, title, authors, abstract) in enumerate(records, start=1):
             f.write(f"## Citing Paper {idx}\n")
             f.write(f"ID: {label}\n")
             f.write(f"Title: {title}\n")
+            f.write(f"Authors: {authors}\n")
             f.write("Abstract:\n")
             f.write(f"{abstract}\n\n")
             count += 1
