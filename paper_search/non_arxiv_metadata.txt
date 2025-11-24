@@ -1,0 +1,79 @@
+DOI: 10.1002/adfm.202523339
+Title: Chiral Nanohoops as an Efficient Spin Polarization System
+Abstract:
+
+ 
+ A central challenge in molecular spintronics is to achieve a high spin polarization at low operating voltages and ambient conditions while maintaining good electrical conductivity. Chiral conjugated nanohoops, characterized by their curved and strained
+ π
+ ‐systems, as well as their ability to be functionalized with anchoring groups, represent promising scaffolds for organic spintronics. Here, the synthesis and spin‐selective properties of axially chiral nanohoops incorporating an antiaromatic dibenzo[
+ a
+ ,
+ e
+ ]pentalene (DBP) unit are reported. DBP enables good charge transport and can be functionalized with a thiomethyl anchoring group. Using magnetic‐conductive atomic force microscopy (mc‐AFM) and magnetoresistance (MR) measurements, asymmetry in spin transport is shown, with temperature‐dependent MR indicating vibrational contributions to spin selectivity. Despite the formation of a supramolecular structure and non‐selective adsorption on the surface, the nanohoops exhibit high spin polarization at ambient temperature and low voltage operation, along with a high conductivity, a rare combination in organic spintronics.
+
+
+DOI: 10.1002/adma.202511289
+Title: Chiral Acoustic Phonon and Conservation of Pseudoangular Momentum in α-Quartz.
+Abstract:
+While the linear motion of phonons is widely understood as arising from the translational symmetry of crystal lattices, recent studies have revealed the intrinsic rotational motion of phonons in condensed matter with discrete rotational symmetry. These phonons, termed chiral phonons, carry angular momentum associated with the rotational motion of atomic masses, as well as pseudoangular momentum arising from the phase winding of their circular motion. Chiral phonons give rise to novel physical phenomena such as Weyl phonons, valleytronics, and current-induced spin selectivity. Furthermore, since acoustic phonons are the primary carriers of heat, chiral acoustic phonons are expected to play a significant role in spin caloritronics. However, the existence of chiral acoustic phonons has not yet been demonstrated, in contrast to the chiral optical phonons. In this study, the detection of chiral acoustic phonons is reported using Brillouin light scattering. It is found that the conservation of pseudoangular momentum, which governs the helicity-dependent selection rules in photon-phonon interactions, manifests clearly for chiral acoustic phonons. By probing the previously uncharted low-wavenumber, low-frequency regime of chiral phonon dispersion, the findings expand the understanding of phonon chirality and its potential implications.
+
+DOI: 10.1016/j.physb.2024.416309
+Title: The chiral dependence of effective masses of polaron spin states in chiral structures
+Abstract:
+
+
+DOI: 10.1021/acs.chemrev.3c00661
+Title: Chiral Induced Spin Selectivity
+Abstract:
+Since the initial landmark study on the chiral induced spin selectivity (CISS) effect in 1999, considerable experimental and theoretical efforts have been made to understand the physical underpinnings and mechanistic features of this interesting phenomenon. As first formulated, the CISS effect refers to the innate ability of chiral materials to act as spin filters for electron transport; however, more recent experiments demonstrate that displacement currents arising from charge polarization of chiral molecules lead to spin polarization without the need for net charge flow. With its identification of a fundamental connection between chiral symmetry and electron spin in molecules and materials, CISS promises profound and ubiquitous implications for existing technologies and new approaches to answering age old questions, such as the homochiral nature of life. This review begins with a discussion of the different methods for measuring CISS and then provides a comprehensive overview of molecules and materials known to exhibit CISS-based phenomena before proceeding to identify structure–property relations and to delineate the leading theoretical models for the CISS effect. Next, it identifies some implications of CISS in physics, chemistry, and biology. The discussion ends with a critical assessment of the CISS field and some comments on its future outlook.
+
+DOI: 10.1021/acs.jpclett.4c02209
+Title: Probing the Roles of Temperature and Cooperative Effects in Chirality-Induced Spin Selectivity: Photoelectron Spin Polarization in Helical Tetrapyrroles
+Abstract:
+We investigate the roles of molecular vibrations and intermolecular interactions in the mechanism underlying chirality-induced spin selectivity (CISS) in monolayers of helical tetrapyrrole (TPBT) molecules. The spin polarization of photoelectrons emitted from TPBT-functionalized Cu(111) surfaces was measured as a function of the temperature and the surface coverage. We employed DFT calculations to determine the energy and temperature-dependent population of vibrational modes which vary either the molecular pitch and/or the molecular radius. In combination, the data demonstrate that molecular vibrations do not play a significant role for CISS in the TPBT layers. Submonolayer coverages were created by gradual thermal desorption of the molecules from the surface during the spin polarization measurements. While the spin polarization scales nonlinearly with the surface coverage, this behavior can be rationalized entirely through changes of the photoelectron yield upon surface functionalization, and therefore represents no evidence for cooperative effects involved in CISS.
+
+DOI: 10.1021/acs.nanolett.4c00383
+Title: Persistent Chirality-Induced Spin-Selectivity Effect in Circular Helix Molecules.
+Abstract:
+The spin-orbit coupling (SOC), the dynamics of the nonequilibrium transport process, and the breaking of time-reversal and space-inversion symmetries have been regarded as key factors for the emergence of chirality-induced spin selectivity (CISS) and chirality-dependent spin currents in helix molecules. In this work, we demonstrated the generation of persistent CISS currents in various circular single-stranded DNAs and 310-helix proteins for the first time, regardless of whether an external magnetic flux is applied or not. This new CISS effect presents only in equilibrium transport processes, distinct from the traditional CISS observed in nonequilibrium transport processes and linear helix molecules; we term it as the PCISS effect. Notably, PCISS manifests irrespective of whether the SOC is chirality-driven or stems from heavy-metal substrates, making it an efficient way to generate chirality-locked pure spin currents. Our research establishes a novel paradigm for examining the underlying physics of the CISS effect.
+
+DOI: 10.1021/acsnano.3c04878
+Title: Efficient Spin-Selective Electron Transport at Low Voltages of Thia-Bridged Triarylamine Hetero[4]helicenes Chemisorbed Monolayer
+Abstract:
+The Chirality Induced Spin Selectivity (CISS) effect describes the capability of chiral molecules to act as spin filters discriminating flowing electrons according to their spin state. Within molecular spintronics, efforts are focused on developing chiral-molecule-based technologies to control the injection and coherence of spin-polarized currents. Herein, for this purpose, we study spin selectivity properties of a monolayer of a thioalkyl derivative of a thia-bridged triarylamine hetero[4]helicene chemisorbed on a gold surface. A stacked device assembled by embedding a monolayer of these molecules between ferromagnetic and diamagnetic electrodes exhibits asymmetric magnetoresistance with inversion of the signal according to the handedness of molecules, in line with the presence of the CISS effect. In addition, magnetically conductive atomic force microscopy reveals efficient electron spin filtering even at unusually low potentials. Our results demonstrate that thia[4]heterohelicenes represent key candidates for the development of chiral spintronic devices.
+
+DOI: 10.1021/acsnano.4c10395
+Title: Chirality-Induced Majorana Zero Modes and Majorana Polarization.
+Abstract:
+Realizing Majorana Fermions has always been regarded as a crucial and formidable task in topological superconductors. In this work, we report a physical mechanism and a material platform for realizing Majorana zero modes (MZMs). This material platform consists of open circular helix molecule (CHM) proximity coupled with an s-wave superconductor (under an external magnetic field) or interconnected-CHM chain coupled with a phase-bias s-wave superconducting heterostructure (without any external magnetic field). MZMs generated here are tightly associated with the structural chirality in CHMs. Notably, the left- and right-handedness results in completely opposite Majorana polarization (MP), leading us to refer to this phenomenon as chirality-induced MP (CIMP). Importantly, the local CIMP is closely linked to chirality-induced spin polarization, providing us with an effective way to regulate MZMs through the chirality-induced spin selectivity (CISS) effect. Furthermore, MZMs can be detected by the spin-polarized current measurements related to the CISS in chiral materials.
+
+DOI: 10.1021/jacs.5c11502
+Title: Photoredox Catalysis with Spin Magnetic Field Effects: A Scheme for Chiral Resolution.
+Abstract:
+Quantities that break both mirror symmetry and time-reversal symmetry, such as the orbital angular momentum, are known to connect molecular chirality with an applied magnetic field. This concept has led to observations such as magneto-chiral dichroism and chirality-induced spin selectivity (CISS). However, being small, these effects often require additional amplification procedures such as flow chemistry to achieve bulk enantioseparation. In this work, we demonstrate how the magnetic field effect on photogenerated radical pairs, which also breaks time-reversal symmetry, can be harnessed for enantiopurification. Fundamental to this process is the collective decay of the singlet and triplet radical-pair states made possible by an applied magnetic field. Because opposite enantiomers exhibit spin-orbit coupling matrix elements of opposite signs, the singlet and triplet decay channels interfere constructively in one enantiomer. Meanwhile, molecules of the other enantiomer are funnelled into the first enantiomer through excited-state chirality inversion, achieving (dynamic kinetic) chiral resolution. Using an axially chiral binaphthyl derivative and a borane photosensitizer as prototype, we predict an appreciable enantiomeric excess (e.e.) of 90% to be possible at steady state, attained within hundreds of milliseconds when irradiated by a laser. Importantly, our analytical results showcase regimes of perfect enantioselectivity (100% e.e.), accessible by further chemical optimization of the photosensitizer for which general strategies are discussed. Overall, this work illustrates a so-far untapped but powerful control knob for photoredox catalysis based on spin chemistry principles.
+
+DOI: 10.1063/5.0156513
+Title: Chirality detection of biological molecule through spin selectivity effect.
+Abstract:
+The ability to accurately monitor chiral biological molecules is of great significance for their potential applications in disease diagnosis and virus detection. As the existing chiral detection technologies are mainly relying on an optical method by using left/right circularly polarized light, the universality is low and the operation is complicated. Moreover, large quantity of chiral molecules is required, causing low detection efficiency. Here, a self-assembled monolayer of polypeptides has been fabricated to realize trace detection of chirality based on spin selectivity of photon-electron interaction. We have utilized Kerr technique to detect the rotation angle by the molecular monolayer, which indicates the chirality of polypeptides. The chiral structure of a biological molecule could result in spin-selectivity of electrons and thus influence the interaction between electron spin and light polarization. A Kerr rotation angle of ∼3° has been obviously observed, equivalent to the magneto-optic Kerr effect without magnetic material or magnetic field. Furthermore, we have provided a novel solution to achieve chirality discrimination and amplification simultaneously through an optical fiber. The proposed design is applicable for chiral detection via increasing their differential output signal, which clearly demonstrates a useful strategy toward chirality characterization of biological molecules.
+
+DOI: 10.1063/5.0272833
+Title: Chiral metal halide perovskites toward room temperature spin light-emitting diodes: Insights and perspectives
+Abstract:
+Chiral metal halide perovskites (MHPs) have emerged for the excellent integration of spin states of freedom with optoelectronic properties. The chiral-induced spin selectivity (CISS) effect enables chiral MHPs great potential to spin-dependent optoelectronic applications. In this review, we briefly summarize the construction principles and recent discoveries on the CISS effect of chiral MHPs. Then, the room temperature spin light-emitting diodes (spin-LEDs) based on the CISS effect of chiral MHPs are discussed. In the end, challenges and opportunities related to spin-LEDs based on chiral MHPs are proposed.
+
+DOI: 10.1103/physrevb.110.085430
+Title: Polaron spin states in chiral systems
+Abstract:
+
+
+DOI: 10.1126/sciadv.adv5220
+Title: Spin polarization driven by molecular vibrations leads to enantioselectivity in chiral molecules
+Abstract:
+Chirality-induced spin selectivity (CISS) encompasses phenomena such as magnetoresistance and enantiomer separation using ferromagnets. It has recently received notable attention. Despite this growing interest, the microscopic mechanisms driving CISS remain a subject of intense debate. This paper complements and extends the prevailing interpretation that attributes CISS primarily to the electric current in chiral molecules. We propose that molecular vibrations drive spin polarization in chiral molecules and play a critical role in CISS. Our results suggest that magnetic interactions between chiral molecules and ferromagnets, analogous to interlayer exchange coupling, provide a physically consistent mechanism for the observed selectivity. Specifically, we demonstrate that molecular vibrations facilitate the alignment of spin angular momentum dependent on chirality in the presence of an external magnetic field, which is a prerequisite for exchange coupling. These findings necessitate reevaluating spin dynamics, expanding its relevance beyond traditional solid-state physics to fields such as chemical reactions, molecular biology, and drug discovery.
+
+DOI: 10.3390/opt4030030
+Title: Thermal Effects on Optical Chirality, Mechanics, and Associated Symmetry Properties
+Abstract:
+A review is provided here about the thermal effects on optical chirality. To this goal, chiral objects dispersed in an embedding fluid are examined for their magnetoelectric coupling. Thermal effects on several chiral meta-atoms and their ensembles are examined. To this goal, DNA-like helical structures are examined in detail. The mechanical aspect of thermo-elasticity is reviewed along with transverse deformations while drawing analogies from condensed-matter physics. In this respect, the chirality-induced spin selection is reviewed along with the temperature-mediated electron–phonon interactions. A wide range of materials, such as polymers and biological cells, are also examined for temperature effects. A transition temperature delineating a sign flip in the chirality parameter is identified as well. Chirality-associated functionalities such as ratchet motions, switching, and modulations are investigated for their respective thermal effects. Issues of fabricating chiral meta-atoms are also discussed.
+
