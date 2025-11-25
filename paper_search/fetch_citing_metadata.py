@@ -23,7 +23,7 @@ import requests
 
 
 API_URL = "https://api.semanticscholar.org/graph/v1/paper/{paper_id}"
-API_FIELDS = "citations.title,citations.abstract,citations.externalIds,citations.authors"
+API_FIELDS = "citations.title,citations.abstract,citations.externalIds,citations.authors,citations.year"
 
 
 def normalize_paper_id(raw: str) -> str:
@@ -73,8 +73,8 @@ def fetch_citations(paper_id: str, retries: int = 3, backoff: float = 3.0):
     return None
 
 
-def iter_citing_metadata(data) -> Iterable[Tuple[str, str, str, str]]:
-    """Yield (label, title, authors, abstract) for each citing paper."""
+def iter_citing_metadata(data) -> Iterable[Tuple[str, str, str, str, str]]:
+    """Yield (label, title, authors, year, abstract) for each citing paper."""
     for citation in data.get("citations", []) or []:
         external = citation.get("externalIds", {}) or {}
         doi = external.get("DOI")
@@ -82,18 +82,20 @@ def iter_citing_metadata(data) -> Iterable[Tuple[str, str, str, str]]:
         label = doi or (f"arXiv:{arxiv}" if arxiv else "(no id)")
         title = citation.get("title") or ""
         authors = ", ".join(a.get("name", "") for a in citation.get("authors", []) if a.get("name"))
+        year = str(citation.get("year")) if citation.get("year") else ""
         abstract = citation.get("abstract") or ""
-        yield label, title, authors, abstract
+        yield label, title, authors, year, abstract
 
 
-def write_metadata(records: Iterable[Tuple[str, str, str, str]], out_path: pathlib.Path) -> int:
+def write_metadata(records: Iterable[Tuple[str, str, str, str, str]], out_path: pathlib.Path) -> int:
     count = 0
     with out_path.open("w", encoding="utf-8") as f:
-        for idx, (label, title, authors, abstract) in enumerate(records, start=1):
+        for idx, (label, title, authors, year, abstract) in enumerate(records, start=1):
             f.write(f"## Citing Paper {idx}\n")
             f.write(f"ID: {label}\n")
             f.write(f"Title: {title}\n")
             f.write(f"Authors: {authors}\n")
+            f.write(f"Year: {year}\n")
             f.write("Abstract:\n")
             f.write(f"{abstract}\n\n")
             count += 1
