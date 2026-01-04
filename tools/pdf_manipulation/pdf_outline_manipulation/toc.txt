@@ -1,17 +1,41 @@
-Abstract - Page 1
-Main Text - Page 1
-    Introduction and Motivation for Momentum-Conserving CISS Interfaces - Page 1
-    Helical Waveguide Hamiltonian, Eigenstates, and Dispersion (Figure 1) - Page 2
-    Extended Interface Coupling Model and Momentum Filtering Criteria - Page 2
-    Perturbative Transition Probabilities and Single-Scatter Polarization Metrics - Page 3
-    Numerical Polarization Maps vs Interface Width and Repeated Scatterings (Figure 2) - Page 4
-    Multi-Helix Device Geometries, Coupling Angles, and Polarization Amplification (Figure 3) - Page 4
-    Robustness Assessment, Experimental Outlook, and Conclusions - Page 5
-Associated Content - Page 5
-    Supporting Information Overview - Page 5
-Author Information - Page 5
-    Corresponding Author - Page 5
-    Authors and Affiliations - Page 5
-Notes - Page 5
-Acknowledgments - Page 5
-References - Page 5
+I. INTRODUCTION - Page 1
+    A. Our contributions: TCL and resummation techniques - Page 2
+    B. Brief review of quantum master equations - Page 3
+    C. Overview of the paper - Page 4
+II. SETUP AND MODEL - Page 5
+III. MAIN RESULT - Page 7
+    A. Resummed TCL (rTCL and mrTCL) - Page 7
+    B. Renormalized TCL2n (rTCL2n and mrTCL2n) - Page 8
+IV. DERIVATION - Page 8
+    A. Time-convolutionless (TCL) master equation - Page 9
+V. GENERATOR LATE-TIME GROWTHS - Page 9
+    A. Cumulative correlation terms - Page 9
+    B. Hadamard trick - Page 10
+    C. Late-time growth and growth algebra - Page 13
+VI. PARTIAL RESUMMATIONS - Page 14
+    A. Identifying growth terms in TCL4 - Page 14
+    B. Peak growth and frequency conditions - Page 14
+    C. Avoiding double counting - Page 15
+    D. Identifying growth terms in TCL6 - Page 15
+    E. Two distinct divergences - Page 16
+VII. RESULTS AND DISCUSSION OF RESUMMATION - Page 17
+    A. General properties of rTCL - Page 17
+    B. Resummation dynamics in the spin-boson model - Page 18
+    C. rTCL6 in Ohmic environment - Page 18
+    D. rTCL in Ohmic environment - Page 19
+    E. Time limit of rTCL - Page 20
+    F. Approach to ground state and return to equilibrium - Page 21
+    G. Baths with exponentially relaxing BCFs - Page 21
+    H. Strongly dephasing qubits and the Försters model - Page 22
+VIII. DISCUSSION AND CONCLUSION - Page 23
+ACKNOWLEDGMENTS - Page 23
+APPENDIX A: PROOF OF THE HADAMARD IDENTITY (68) - Page 24
+APPENDIX B: INTEGRATION BOUNDS FOR TIME-ORDERED INTEGRALS - Page 24
+APPENDIX C: HADAMARD TRICK - Page 25
+APPENDIX D: ESTIMATION OF THE NUMBER OF (n − 1)-DIMENSIONAL INTEGRALS GENERATED PER (2n − 1)-DIMENSIONAL INTEGRAL - Page 29
+APPENDIX E: PROOF OF THE IDENTITY (107) - Page 29
+APPENDIX F: COMPLETE TCL6 GENERATOR - Page 30
+APPENDIX G: CLASSIFICATION OF ω1 + ω2 + ω3 = 0 TCL4 TERMS - Page 34
+APPENDIX H: RETURN TO EQUILIBRIUM - Page 36
+APPENDIX I: FÖRSTER REGIME - Page 37
+REFERENCES - Page 38

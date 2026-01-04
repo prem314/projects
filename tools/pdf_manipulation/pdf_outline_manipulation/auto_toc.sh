@@ -11,8 +11,28 @@ cd "$SCRIPT_DIR"
 SCRATCH_DIR="${SCRIPT_DIR}/codex_scratch"
 mkdir -p "${SCRATCH_DIR}"
 
-# Allow callers to override the Codex model via TOC_MODEL, default to a generally available model.
-MODEL="${TOC_MODEL:-gpt-5-codex}"
+# Allow callers to override the Codex model via TOC_MODEL, otherwise read from config.toml.
+CODEX_CONFIG="${CODEX_CONFIG:-${HOME}/.codex/config.toml}"
+MODEL="${TOC_MODEL:-}"
+if [[ -z "${MODEL}" && -f "${CODEX_CONFIG}" ]]; then
+  MODEL="$(
+    awk -F '=' '
+      BEGIN { in_section = 0 }
+      /^[[:space:]]*\[/ { in_section = 1 }
+      in_section { next }
+      /^[[:space:]]*model[[:space:]]*=/ {
+        val = $2
+        sub(/^[[:space:]]*/, "", val)
+        sub(/[[:space:]]*$/, "", val)
+        if (val ~ /^"/) { sub(/^"/, "", val); sub(/"$/, "", val) }
+        if (val ~ /^'\''/) { sub(/^'\''/, "", val); sub(/'\''$/, "", val) }
+        print val
+        exit
+      }
+    ' "${CODEX_CONFIG}"
+  )"
+fi
+MODEL="${MODEL:-gpt-5-codex}"
 
 # Prefer using the user's conda environment for PyMuPDF; fall back to python3 if unavailable.
 PYTHON_CMD=("python3")

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="24.02.0">
+<page number="38" position="absolute" top="0" left="0" height="1215" width="911">
+	<fontspec id="0" size="13" family="FJMCEK+Times" color="#000000"/>
+	<fontspec id="1" size="13" family="FJMJMM+Times" color="#000000"/>
+	<fontspec id="2" size="13" family="FJMCEL+Times" color="#000000"/>
+	<fontspec id="3" size="13" family="FJMCEK+Times" color="#0000ff"/>
+	<fontspec id="4" size="13" family="FJMCEL+Times" color="#0000ff"/>
+	<fontspec id="5" size="13" family="FJMKDK+RMTMI" color="#000000"/>
+<text top="67" left="73" width="110" height="12" font="0">LANCE LAMPERT</text>
+<text top="67" left="187" width="27" height="12" font="1"><i>et al.</i></text>
+<text top="67" left="591" width="134" height="12" font="0">PHYSICAL REVIEW A</text>
+<text top="67" left="729" width="20" height="12" font="2"><b>111</b></text>
+<text top="67" left="749" width="86" height="12" font="0">, 042214 (2025)</text>
+<text top="106" left="80" width="361" height="12" font="0">[1] A. Strathearn, P. Kirton, D. Kilda, J. Keeling, and B. W.</text>
+<text top="123" left="101" width="340" height="12" font="0">Lovett, Efficient non-Markovian quantum dynamics using time-</text>
+<text top="141" left="101" width="198" height="12" font="0"><a href="https://doi.org/10.1038/s41467-018-05617-3">evolving matrix product operators,</a></text>
+<text top="141" left="306" width="83" height="12" font="3"><a href="https://doi.org/10.1038/s41467-018-05617-3">Nat. Commun.</a></text>
+<text top="141" left="397" width="7" height="12" font="4"><a href="https://doi.org/10.1038/s41467-018-05617-3"><b>9</b></a></text>
+<text top="141" left="404" width="38" height="12" font="3"><a href="https://doi.org/10.1038/s41467-018-05617-3">, 3322</a></text>
+<text top="158" left="101" width="36" height="12" font="3"><a href="https://doi.org/10.1038/s41467-018-05617-3">(2018)</a></text>
+<text top="158" left="137" width="3" height="12" font="0"><a href="https://doi.org/10.1038/s41467-018-05617-3">.</a></text>
+<text top="175" left="80" width="361" height="12" font="0">[2] R. Hartmann and W. T. Strunz, Exact open quantum system</text>
+<text top="192" left="101" width="286" height="12" font="0"><a href="https://doi.org/10.1021/acs.jctc.7b00751">dynamics using the hierarchy of pure states (hops),</a></text>
+<text top="192" left="392" width="49" height="12" font="3"><a href="https://doi.org/10.1021/acs.jctc.7b00751">J. Chem.</a></text>
+<text top="209" left="101" width="89" height="12" font="3"><a href="https://doi.org/10.1021/acs.jctc.7b00751">Theory Comput.</a></text>
+<text top="209" left="193" width="13" height="12" font="4"><a href="https://doi.org/10.1021/acs.jctc.7b00751"><b>13</b></a></text>
+<text top="209" left="207" width="73" height="12" font="3"><a href="https://doi.org/10.1021/acs.jctc.7b00751">, 5834 (2017)</a></text>
+<text top="209" left="280" width="3" height="12" font="0"><a href="https://doi.org/10.1021/acs.jctc.7b00751">.</a></text>
+<text top="227" left="80" width="361" height="12" font="0">[3] M. R. Jørgensen and F. A. Pollock, Exploiting the causal tensor</text>
+<text top="244" left="101" width="340" height="12" font="0">network structure of quantum processes to efficiently simulate</text>
+<text top="261" left="101" width="168" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevLett.123.240602">non-Markovian path integrals,</a></text>
+<text top="261" left="275" width="90" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevLett.123.240602">Phys. Rev. Lett.</a></text>
+<text top="261" left="371" width="20" height="12" font="4"><a href="https://doi.org/10.1103/PhysRevLett.123.240602"><b>123</b></a></text>
+<text top="261" left="391" width="50" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevLett.123.240602">, 240602</a></text>
+<text top="278" left="101" width="36" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevLett.123.240602">(2019)</a></text>
+<text top="278" left="137" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevLett.123.240602">.</a></text>
+<text top="295" left="80" width="361" height="12" font="0">[4] Y. Tanimura, Numerically “exact” approach to open quan-</text>
+<text top="312" left="101" width="340" height="12" font="0">tum dynamics: The hierarchical equations of motion (heom),</text>
+<text top="330" left="101" width="80" height="12" font="3"><a href="https://doi.org/10.1063/5.0011599">J. Chem. Phys.</a></text>
+<text top="330" left="185" width="20" height="12" font="4"><a href="https://doi.org/10.1063/5.0011599"><b>153</b></a></text>
+<text top="330" left="205" width="86" height="12" font="3"><a href="https://doi.org/10.1063/5.0011599">, 020901 (2020)</a></text>
+<text top="330" left="291" width="3" height="12" font="0"><a href="https://doi.org/10.1063/5.0011599">.</a></text>
+<text top="347" left="80" width="361" height="12" font="0">[5] F. Mascherpa, A. Smirne, A. D. Somoza, P. Fernández-Acebal,</text>
+<text top="364" left="101" width="340" height="12" font="0">S. Donadi, D. Tamascelli, S. F. Huelga, and M. B. Plenio,</text>
+<text top="381" left="101" width="340" height="12" font="0">Optimized auxiliary oscillators for the simulation of general</text>
+<text top="398" left="101" width="126" height="12" font="0">open quantum systems,</text>
+<text top="398" left="230" width="70" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevA.101.052108">Phys. Rev. A</a></text>
+<text top="398" left="303" width="20" height="12" font="4"><a href="https://doi.org/10.1103/PhysRevA.101.052108"><b>101</b></a></text>
+<text top="398" left="324" width="86" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevA.101.052108">, 052108 (2020)</a></text>
+<text top="398" left="410" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevA.101.052108">.</a></text>
+<text top="416" left="80" width="361" height="12" font="0">[6] S. Milz and K. Modi, Quantum stochastic processes and quan-</text>
+<text top="433" left="101" width="184" height="12" font="0"><a href="https://doi.org/10.1103/PRXQuantum.2.030201">tum non-Markovian phenomena,</a></text>
+<text top="433" left="293" width="83" height="12" font="3"><a href="https://doi.org/10.1103/PRXQuantum.2.030201">PRX Quantum</a></text>
+<text top="433" left="383" width="7" height="12" font="4"><a href="https://doi.org/10.1103/PRXQuantum.2.030201"><b>2</b></a></text>
+<text top="433" left="390" width="51" height="12" font="3"><a href="https://doi.org/10.1103/PRXQuantum.2.030201">, 030201</a></text>
+<text top="450" left="101" width="36" height="12" font="3"><a href="https://doi.org/10.1103/PRXQuantum.2.030201">(2021)</a></text>
+<text top="450" left="137" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PRXQuantum.2.030201">.</a></text>
+<text top="467" left="80" width="361" height="12" font="0">[7] I. de Vega and D. Alonso, Dynamics of non-Markovian open</text>
+<text top="484" left="101" width="96" height="12" font="0">quantum systems,</text>
+<text top="484" left="201" width="89" height="12" font="3"><a href="https://doi.org/10.1103/RevModPhys.89.015001">Rev. Mod. Phys.</a></text>
+<text top="484" left="293" width="13" height="12" font="4"><a href="https://doi.org/10.1103/RevModPhys.89.015001"><b>89</b></a></text>
+<text top="484" left="306" width="86" height="12" font="3"><a href="https://doi.org/10.1103/RevModPhys.89.015001">, 015001 (2017)</a></text>
+<text top="484" left="393" width="3" height="12" font="0"><a href="https://doi.org/10.1103/RevModPhys.89.015001">.</a></text>
+<text top="502" left="80" width="173" height="12" font="0">[8] F. Bloch, Nuclear induction,</text>
+<text top="502" left="257" width="57" height="12" font="3"><a href="https://doi.org/10.1103/PhysRev.70.460">Phys. Rev.</a></text>
+<text top="502" left="317" width="13" height="12" font="4"><a href="https://doi.org/10.1103/PhysRev.70.460"><b>70</b></a></text>
+<text top="502" left="330" width="66" height="12" font="3"><a href="https://doi.org/10.1103/PhysRev.70.460">, 460 (1946)</a></text>
+<text top="502" left="396" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PhysRev.70.460">.</a></text>
+<text top="519" left="80" width="304" height="12" font="0">[9] A. Redfield, The theory of relaxation processes, in</text>
+<text top="519" left="390" width="52" height="12" font="1"><i>Advances</i></text>
+<text top="536" left="101" width="134" height="12" font="1"><i>in Magnetic Resonance</i></text>
+<text top="536" left="235" width="206" height="12" font="0">, edited by J. S. Waugh, Advances</text>
+<text top="553" left="101" width="340" height="12" font="0">in Magnetic and Optical Resonance Vol. 1 (Academic Press,</text>
+<text top="570" left="101" width="146" height="12" font="0">New York, 1965), pp. 1–32</text>
+<text top="587" left="73" width="368" height="12" font="0">[10] N. Van Kampen, A cumulant expansion for stochastic lin-</text>
+<text top="605" left="101" width="160" height="12" font="0"><a href="https://doi.org/10.1016/0031-8914(74)90121-9">ear differential equations. I,</a></text>
+<text top="605" left="269" width="121" height="12" font="3"><a href="https://doi.org/10.1016/0031-8914(74)90121-9">Physica (Amsterdam)</a></text>
+<text top="605" left="397" width="13" height="12" font="4"><a href="https://doi.org/10.1016/0031-8914(74)90121-9"><b>74</b></a></text>
+<text top="605" left="410" width="31" height="12" font="3"><a href="https://doi.org/10.1016/0031-8914(74)90121-9">, 215</a></text>
+<text top="622" left="101" width="36" height="12" font="3"><a href="https://doi.org/10.1016/0031-8914(74)90121-9">(1974)</a></text>
+<text top="622" left="137" width="3" height="12" font="0"><a href="https://doi.org/10.1016/0031-8914(74)90121-9">.</a></text>
+<text top="639" left="73" width="368" height="12" font="0">[11] N. Van Kampen, A cumulant expansion for stochastic linear</text>
+<text top="656" left="101" width="133" height="12" font="0">differential equations. II,</text>
+<text top="656" left="238" width="117" height="12" font="3"><a href="https://doi.org/10.1016/0031-8914(74)90122-0">Physica (Amsterdam)</a></text>
+<text top="656" left="358" width="13" height="12" font="4"><a href="https://doi.org/10.1016/0031-8914(74)90122-0"><b>74</b></a></text>
+<text top="656" left="371" width="66" height="12" font="3"><a href="https://doi.org/10.1016/0031-8914(74)90122-0">, 239 (1974)</a></text>
+<text top="656" left="438" width="3" height="12" font="0"><a href="https://doi.org/10.1016/0031-8914(74)90122-0">.</a></text>
+<text top="673" left="73" width="368" height="12" font="0">[12] G. Schaller and T. Brandes, Preservation of positivity by dy-</text>
+<text top="691" left="101" width="132" height="12" font="0">namical coarse graining,</text>
+<text top="691" left="236" width="70" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevA.78.022106">Phys. Rev. A</a></text>
+<text top="691" left="309" width="13" height="12" font="4"><a href="https://doi.org/10.1103/PhysRevA.78.022106"><b>78</b></a></text>
+<text top="691" left="323" width="86" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevA.78.022106">, 022106 (2008)</a></text>
+<text top="691" left="409" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevA.78.022106">.</a></text>
+<text top="708" left="73" width="368" height="12" font="0">[13] J. Thingna, H. Zhou, and J.-S. Wang, Improved dyson series</text>
+<text top="725" left="101" width="340" height="12" font="0">expansion for steady-state quantum transport beyond the weak</text>
+<text top="742" left="101" width="231" height="12" font="0"><a href="https://doi.org/10.1063/1.4901274">coupling limit: Divergences and resolution,</a></text>
+<text top="742" left="335" width="79" height="12" font="3"><a href="https://doi.org/10.1063/1.4901274">J. Chem. Phys.</a></text>
+<text top="742" left="418" width="20" height="12" font="4"><a href="https://doi.org/10.1063/1.4901274"><b>141</b></a></text>
+<text top="742" left="438" width="3" height="12" font="3"><a href="https://doi.org/10.1063/1.4901274">,</a></text>
+<text top="759" left="101" width="80" height="12" font="3"><a href="https://doi.org/10.1063/1.4901274">194101 (2014)</a></text>
+<text top="759" left="181" width="3" height="12" font="0"><a href="https://doi.org/10.1063/1.4901274">.</a></text>
+<text top="777" left="73" width="368" height="12" font="0">[14] G. Kaplanek and C. P. Burgess, Hot accelerated qubits: deco-</text>
+<text top="794" left="101" width="340" height="12" font="0">herence, thermalization, secular growth and reliable late-time</text>
+<text top="811" left="101" width="63" height="12" font="0">predictions,</text>
+<text top="811" left="168" width="193" height="12" font="3"><a href="https://doi.org/10.1007/JHEP03(2020)008">J. High Energy Phys. 03 (2020) 008</a></text>
+<text top="811" left="361" width="3" height="12" font="0"><a href="https://doi.org/10.1007/JHEP03(2020)008">.</a></text>
+<text top="828" left="73" width="368" height="12" font="0">[15] V. Link, H.-H. Tu, and W. T. Strunz, Open quantum system</text>
+<text top="845" left="101" width="278" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevLett.132.200403">dynamics from infinite tensor network contraction,</a></text>
+<text top="845" left="383" width="58" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevLett.132.200403">Phys. Rev.</a></text>
+<text top="862" left="101" width="25" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevLett.132.200403">Lett.</a></text>
+<text top="862" left="129" width="20" height="12" font="4"><a href="https://doi.org/10.1103/PhysRevLett.132.200403"><b>132</b></a></text>
+<text top="862" left="150" width="86" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevLett.132.200403">, 200403 (2024)</a></text>
+<text top="862" left="236" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevLett.132.200403">.</a></text>
+<text top="880" left="73" width="368" height="12" font="0">[16] M. Cygorek, J. Keeling, B. W. Lovett, and E. M. Gauger,</text>
+<text top="897" left="101" width="340" height="12" font="0">Sublinear scaling in non-Markovian open quantum systems</text>
+<text top="914" left="101" width="65" height="12" font="0">simulations,</text>
+<text top="914" left="170" width="70" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevX.14.011010">Phys. Rev. X</a></text>
+<text top="914" left="243" width="13" height="12" font="4"><a href="https://doi.org/10.1103/PhysRevX.14.011010"><b>14</b></a></text>
+<text top="914" left="256" width="86" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevX.14.011010">, 011010 (2024)</a></text>
+<text top="914" left="343" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevX.14.011010">.</a></text>
+<text top="931" left="73" width="368" height="12" font="0">[17] F. Kahlert, V. Link, R. Hartmann, and W. T. Strunz, Simulating</text>
+<text top="948" left="101" width="340" height="12" font="0">the Landau–Zener sweep in deeply sub-ohmic environments,</text>
+<text top="966" left="101" width="80" height="12" font="3"><a href="https://doi.org/10.1063/5.0235741">J. Chem. Phys.</a></text>
+<text top="966" left="185" width="20" height="12" font="4"><a href="https://doi.org/10.1063/5.0235741"><b>161</b></a></text>
+<text top="966" left="205" width="86" height="12" font="3"><a href="https://doi.org/10.1063/5.0235741">, 184108 (2024)</a></text>
+<text top="966" left="291" width="3" height="12" font="0"><a href="https://doi.org/10.1063/5.0235741">.</a></text>
+<text top="983" left="73" width="368" height="12" font="0">[18] H. Nguyen, N. Ng, L. P. Lindoy, G. Park, A. J. Millis,</text>
+<text top="1000" left="101" width="340" height="12" font="0">G. K.-L. Chan, and D. R. Reichman, Correlation functions</text>
+<text top="1017" left="101" width="340" height="12" font="0">from tensor network influence functionals: The case of the spin-</text>
+<text top="1034" left="101" width="72" height="12" font="0">boson model,</text>
+<text top="1034" left="177" width="80" height="12" font="3"><a href="https://doi.org/10.1063/5.0224880">J. Chem. Phys.</a></text>
+<text top="1034" left="261" width="20" height="12" font="4"><a href="https://doi.org/10.1063/5.0224880"><b>161</b></a></text>
+<text top="1034" left="281" width="86" height="12" font="3"><a href="https://doi.org/10.1063/5.0224880">, 104111 (2024)</a></text>
+<text top="1034" left="367" width="3" height="12" font="0"><a href="https://doi.org/10.1063/5.0224880">.</a></text>
+<text top="1051" left="73" width="368" height="12" font="0">[19] N. Dowling, K. Modi, R. N. Muñoz, S. Singh, and G. A. L.</text>
+<text top="1069" left="101" width="340" height="12" font="0">White, Capturing long-range memory structures with tree-</text>
+<text top="1086" left="101" width="139" height="12" font="0">geometry process tensors,</text>
+<text top="1086" left="244" width="70" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevX.14.041018">Phys. Rev. X</a></text>
+<text top="1086" left="317" width="13" height="12" font="4"><a href="https://doi.org/10.1103/PhysRevX.14.041018"><b>14</b></a></text>
+<text top="1086" left="330" width="86" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevX.14.041018">, 041018 (2024)</a></text>
+<text top="1086" left="417" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevX.14.041018">.</a></text>
+<text top="1103" left="73" width="368" height="12" font="0">[20] E. Crowder, L. Lampert, G. Manchanda, B. Shoffeitt, S.</text>
+<text top="1120" left="101" width="340" height="12" font="0">Gadamsetty, Y. Pei, S. Chaudhary, and D. Davidovi´c,</text>
+<text top="106" left="496" width="340" height="12" font="0">Invalidation of the Bloch-Redfield equation in the sub-Ohmic</text>
+<text top="123" left="496" width="340" height="12" font="0">regime via a practical time-convolutionless fourth-order master</text>
+<text top="141" left="496" width="50" height="12" font="0">equation,</text>
+<text top="141" left="552" width="70" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevA.109.052205">Phys. Rev. A</a></text>
+<text top="141" left="625" width="20" height="12" font="4"><a href="https://doi.org/10.1103/PhysRevA.109.052205"><b>109</b></a></text>
+<text top="141" left="645" width="86" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevA.109.052205">, 052205 (2024)</a></text>
+<text top="141" left="732" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevA.109.052205">.</a></text>
+<text top="158" left="468" width="271" height="12" font="0">[21] <a href="https://doi.org/10.1007/BF01608389">E. B. Davies, Markovian master equations,</a></text>
+<text top="158" left="745" width="91" height="12" font="3"><a href="https://doi.org/10.1007/BF01608389">Commun. Math.</a></text>
+<text top="175" left="496" width="29" height="12" font="3"><a href="https://doi.org/10.1007/BF01608389">Phys.</a></text>
+<text top="175" left="528" width="13" height="12" font="4"><a href="https://doi.org/10.1007/BF01608389"><b>39</b></a></text>
+<text top="175" left="542" width="59" height="12" font="3"><a href="https://doi.org/10.1007/BF01608389">, 91 (1974)</a></text>
+<text top="175" left="601" width="3" height="12" font="0"><a href="https://doi.org/10.1007/BF01608389">.</a></text>
+<text top="192" left="468" width="368" height="12" font="0">[22] M. Tokuyama and H. Mori, Statistical-mechanical theory of the</text>
+<text top="209" left="496" width="216" height="12" font="0"><a href="https://doi.org/10.1143/PTP.56.1073">Boltzmann equation and fluctuations in</a></text>
+<text top="206" left="716" width="9" height="17" font="5"><a href="https://doi.org/10.1143/PTP.56.1073"><i>μ</i></a></text>
+<text top="209" left="730" width="33" height="12" font="0"><a href="https://doi.org/10.1143/PTP.56.1073">space,</a></text>
+<text top="209" left="768" width="68" height="12" font="3"><a href="https://doi.org/10.1143/PTP.56.1073">Prog. Theor.</a></text>
+<text top="227" left="496" width="29" height="12" font="3"><a href="https://doi.org/10.1143/PTP.56.1073">Phys.</a></text>
+<text top="227" left="528" width="13" height="12" font="4"><a href="https://doi.org/10.1143/PTP.56.1073"><b>56</b></a></text>
+<text top="227" left="542" width="73" height="12" font="3"><a href="https://doi.org/10.1143/PTP.56.1073">, 1073 (1976)</a></text>
+<text top="227" left="615" width="3" height="12" font="0"><a href="https://doi.org/10.1143/PTP.56.1073">.</a></text>
+<text top="244" left="468" width="368" height="12" font="0">[23] S. Nakajima, On quantum theory of transport phenomena:</text>
+<text top="261" left="496" width="92" height="12" font="0">Steady diffusion,</text>
+<text top="261" left="591" width="100" height="12" font="3"><a href="https://doi.org/10.1143/PTP.20.948">Prog. Theor. Phys.</a></text>
+<text top="261" left="694" width="13" height="12" font="4"><a href="https://doi.org/10.1143/PTP.20.948"><b>20</b></a></text>
+<text top="261" left="707" width="66" height="12" font="3"><a href="https://doi.org/10.1143/PTP.20.948">, 948 (1958)</a></text>
+<text top="261" left="773" width="3" height="12" font="0"><a href="https://doi.org/10.1143/PTP.20.948">.</a></text>
+<text top="278" left="468" width="368" height="12" font="0">[24] R. Zwanzig, Ensemble method in the theory of irreversibility,</text>
+<text top="295" left="496" width="80" height="12" font="3"><a href="https://doi.org/10.1063/1.1731409">J. Chem. Phys.</a></text>
+<text top="295" left="579" width="13" height="12" font="4"><a href="https://doi.org/10.1063/1.1731409"><b>33</b></a></text>
+<text top="295" left="593" width="73" height="12" font="3"><a href="https://doi.org/10.1063/1.1731409">, 1338 (1960)</a></text>
+<text top="295" left="666" width="3" height="12" font="0"><a href="https://doi.org/10.1063/1.1731409">.</a></text>
+<text top="312" left="468" width="202" height="12" font="0">[25] H.-P. Breuer and F. Petruccione,</text>
+<text top="312" left="673" width="162" height="12" font="1"><i>The Theory of Open Quantum</i></text>
+<text top="330" left="496" width="43" height="12" font="1"><i>Systems</i></text>
+<text top="330" left="542" width="222" height="12" font="0">(Oxford University Press, Oxford, 2007).</text>
+<text top="347" left="468" width="368" height="12" font="0">[26] J. Chen, E. Crowder, L. Xiang, and D. Davidovic, Benchmark-</text>
+<text top="364" left="496" width="340" height="12" font="0">ing TCL4: Assessing the usability and reliability of fourth-order</text>
+<text top="381" left="496" width="87" height="12" font="0">approximations,</text>
+<text top="381" left="586" width="79" height="12" font="3"><a href="https://doi.org/10.1063/5.0255350">APL Quantum</a></text>
+<text top="381" left="668" width="7" height="12" font="4"><a href="https://doi.org/10.1063/5.0255350"><b>2</b></a></text>
+<text top="381" left="675" width="86" height="12" font="3"><a href="https://doi.org/10.1063/5.0255350">, 026109 (2025)</a></text>
+<text top="381" left="761" width="3" height="12" font="0"><a href="https://doi.org/10.1063/5.0255350">.</a></text>
+<text top="398" left="468" width="368" height="12" font="0">[27] Y. Tanimura and R. Kubo, Two-time correlation functions of</text>
+<text top="416" left="496" width="340" height="12" font="0">a system coupled to a heat bath with a Gaussian-Markoffian</text>
+<text top="433" left="496" width="61" height="12" font="0">interaction,</text>
+<text top="433" left="560" width="94" height="12" font="3"><a href="https://doi.org/10.1143/JPSJ.58.1199">J. Phys. Soc. Jpn.</a></text>
+<text top="433" left="657" width="13" height="12" font="4"><a href="https://doi.org/10.1143/JPSJ.58.1199"><b>58</b></a></text>
+<text top="433" left="670" width="73" height="12" font="3"><a href="https://doi.org/10.1143/JPSJ.58.1199">, 1199 (1989)</a></text>
+<text top="433" left="743" width="3" height="12" font="0"><a href="https://doi.org/10.1143/JPSJ.58.1199">.</a></text>
+<text top="450" left="468" width="368" height="12" font="0">[28] N. N. Bogolyubov, Problems of a dynamical theory in statistical</text>
+<text top="467" left="496" width="83" height="12" font="0">physics (1962).</text>
+<text top="484" left="468" width="368" height="12" font="0">[29] L. van Hove, Quantum-mechanical perturbations giving rise to</text>
+<text top="502" left="496" width="169" height="12" font="0"><a href="https://doi.org/10.1016/S0031-8914(54)92646-4">a statistical transport equation,</a></text>
+<text top="502" left="670" width="119" height="12" font="3"><a href="https://doi.org/10.1016/S0031-8914(54)92646-4">Physica (Amsterdam)</a></text>
+<text top="502" left="794" width="13" height="12" font="4"><a href="https://doi.org/10.1016/S0031-8914(54)92646-4"><b>21</b></a></text>
+<text top="502" left="807" width="29" height="12" font="3"><a href="https://doi.org/10.1016/S0031-8914(54)92646-4">, 517</a></text>
+<text top="519" left="496" width="36" height="12" font="3"><a href="https://doi.org/10.1016/S0031-8914(54)92646-4">(1954)</a></text>
+<text top="519" left="531" width="3" height="12" font="0"><a href="https://doi.org/10.1016/S0031-8914(54)92646-4">.</a></text>
+<text top="536" left="468" width="38" height="12" font="0">[30] T.</text>
+<text top="536" left="532" width="41" height="12" font="0">Forster,</text>
+<text top="536" left="599" width="101" height="12" font="0">Energiewanderung</text>
+<text top="536" left="725" width="20" height="12" font="0">und</text>
+<text top="536" left="771" width="65" height="12" font="0">fluoreszenz,</text>
+<text top="553" left="496" width="112" height="12" font="3"><a href="https://doi.org/10.1007/BF00585226">Naturwissenschaften</a></text>
+<text top="553" left="611" width="13" height="12" font="4"><a href="https://doi.org/10.1007/BF00585226"><b>33</b></a></text>
+<text top="553" left="624" width="66" height="12" font="3"><a href="https://doi.org/10.1007/BF00585226">, 166 (1946)</a></text>
+<text top="553" left="691" width="3" height="12" font="0"><a href="https://doi.org/10.1007/BF00585226">.</a></text>
+<text top="570" left="468" width="368" height="12" font="0">[31] T. Förster, Zwischenmolekulare energiewanderung und fluo-</text>
+<text top="587" left="496" width="44" height="12" font="0">reszenz,</text>
+<text top="587" left="543" width="59" height="12" font="3"><a href="https://doi.org/10.1002/andp.19484370105">Ann. Phys.</a></text>
+<text top="587" left="605" width="20" height="12" font="4"><a href="https://doi.org/10.1002/andp.19484370105"><b>437</b></a></text>
+<text top="587" left="626" width="59" height="12" font="3"><a href="https://doi.org/10.1002/andp.19484370105">, 55 (1948)</a></text>
+<text top="587" left="685" width="3" height="12" font="0"><a href="https://doi.org/10.1002/andp.19484370105">.</a></text>
+<text top="605" left="468" width="368" height="12" font="0">[32] V. Gorini, A. Kossakowski, and E. C. G. Sudarshan, Completely</text>
+<text top="622" left="496" width="287" height="12" font="0"><a href="https://doi.org/10.1063/1.522979">positive dynamical semigroups of n-level systems,</a></text>
+<text top="622" left="789" width="47" height="12" font="3"><a href="https://doi.org/10.1063/1.522979">J. Math.</a></text>
+<text top="639" left="496" width="29" height="12" font="3"><a href="https://doi.org/10.1063/1.522979">Phys.</a></text>
+<text top="639" left="528" width="13" height="12" font="4"><a href="https://doi.org/10.1063/1.522979"><b>17</b></a></text>
+<text top="639" left="542" width="66" height="12" font="3"><a href="https://doi.org/10.1063/1.522979">, 821 (1976)</a></text>
+<text top="639" left="608" width="3" height="12" font="0"><a href="https://doi.org/10.1063/1.522979">.</a></text>
+<text top="656" left="468" width="368" height="12" font="0">[33] G. Lindblad, On the generators of quantum dynamical semi-</text>
+<text top="673" left="496" width="40" height="12" font="0">groups,</text>
+<text top="673" left="539" width="121" height="12" font="3"><a href="https://doi.org/10.1007/BF01608499">Commun. Math. Phys.</a></text>
+<text top="673" left="664" width="13" height="12" font="4"><a href="https://doi.org/10.1007/BF01608499"><b>48</b></a></text>
+<text top="673" left="677" width="66" height="12" font="3"><a href="https://doi.org/10.1007/BF01608499">, 119 (1976)</a></text>
+<text top="673" left="743" width="3" height="12" font="0"><a href="https://doi.org/10.1007/BF01608499">.</a></text>
+<text top="691" left="468" width="368" height="12" font="0">[34] M. Merkli, Dynamics of open quantum systems I, oscillation</text>
+<text top="708" left="496" width="57" height="12" font="0">and decay,</text>
+<text top="708" left="556" width="50" height="12" font="3"><a href="https://doi.org/10.22331/q-2022-01-03-615">Quantum</a></text>
+<text top="708" left="610" width="7" height="12" font="4"><a href="https://doi.org/10.22331/q-2022-01-03-615"><b>6</b></a></text>
+<text top="708" left="617" width="66" height="12" font="3"><a href="https://doi.org/10.22331/q-2022-01-03-615">, 615 (2022)</a></text>
+<text top="708" left="683" width="3" height="12" font="0"><a href="https://doi.org/10.22331/q-2022-01-03-615">.</a></text>
+<text top="725" left="468" width="368" height="12" font="0">[35] M. Merkli, Dynamics of open quantum systems II, Markovian</text>
+<text top="742" left="496" width="82" height="12" font="0">approximation,</text>
+<text top="742" left="581" width="50" height="12" font="3"><a href="https://doi.org/10.22331/q-2022-01-03-616">Quantum</a></text>
+<text top="742" left="634" width="7" height="12" font="4"><a href="https://doi.org/10.22331/q-2022-01-03-616"><b>6</b></a></text>
+<text top="742" left="641" width="66" height="12" font="3"><a href="https://doi.org/10.22331/q-2022-01-03-616">, 616 (2022)</a></text>
+<text top="742" left="707" width="3" height="12" font="0"><a href="https://doi.org/10.22331/q-2022-01-03-616">.</a></text>
+<text top="759" left="468" width="368" height="12" font="0">[36] D. Davidovi´c, Geometric-arithmetic master equation in large</text>
+<text top="776" left="496" width="177" height="12" font="0"><a href="https://doi.org/10.1088/1751-8121/ac9f30">and fast open quantum systems,</a></text>
+<text top="776" left="677" width="137" height="12" font="3"><a href="https://doi.org/10.1088/1751-8121/ac9f30">J. Phys. A: Math. Theor.</a></text>
+<text top="776" left="819" width="13" height="12" font="4"><a href="https://doi.org/10.1088/1751-8121/ac9f30"><b>55</b></a></text>
+<text top="776" left="832" width="3" height="12" font="3"><a href="https://doi.org/10.1088/1751-8121/ac9f30">,</a></text>
+<text top="794" left="496" width="80" height="12" font="3"><a href="https://doi.org/10.1088/1751-8121/ac9f30">455301 (2022)</a></text>
+<text top="794" left="575" width="3" height="12" font="0"><a href="https://doi.org/10.1088/1751-8121/ac9f30">.</a></text>
+<text top="811" left="468" width="368" height="12" font="0">[37] R. Hartmann and W. T. Strunz, Accuracy assessment of pertur-</text>
+<text top="828" left="496" width="268" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevA.101.012103">bative master equations: Embracing nonpositivity,</a></text>
+<text top="828" left="766" width="69" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevA.101.012103">Phys. Rev. A</a></text>
+<text top="845" left="496" width="20" height="12" font="4"><a href="https://doi.org/10.1103/PhysRevA.101.012103"><b>101</b></a></text>
+<text top="845" left="516" width="86" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevA.101.012103">, 012103 (2020)</a></text>
+<text top="845" left="602" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevA.101.012103">.</a></text>
+<text top="862" left="468" width="368" height="12" font="0">[38] C. H. Fleming and N. I. Cummings, Accuracy of perturbative</text>
+<text top="880" left="496" width="94" height="12" font="0">master equations,</text>
+<text top="880" left="593" width="68" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevE.83.031117">Phys. Rev. E</a></text>
+<text top="880" left="665" width="13" height="12" font="4"><a href="https://doi.org/10.1103/PhysRevE.83.031117"><b>83</b></a></text>
+<text top="880" left="678" width="86" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevE.83.031117">, 031117 (2011)</a></text>
+<text top="880" left="764" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevE.83.031117">.</a></text>
+<text top="897" left="468" width="368" height="12" font="0">[39] J. Thingna, J.-S. Wang, and P. Hänggi, Generalized Gibbs state</text>
+<text top="914" left="496" width="340" height="12" font="0">with modified redfield solution: Exact agreement up to second</text>
+<text top="931" left="496" width="32" height="12" font="0">order,</text>
+<text top="931" left="531" width="80" height="12" font="3"><a href="https://doi.org/10.1063/1.4718706">J. Chem. Phys.</a></text>
+<text top="931" left="614" width="20" height="12" font="4"><a href="https://doi.org/10.1063/1.4718706"><b>136</b></a></text>
+<text top="931" left="635" width="86" height="12" font="3"><a href="https://doi.org/10.1063/1.4718706">, 194110 (2012)</a></text>
+<text top="931" left="721" width="3" height="12" font="0"><a href="https://doi.org/10.1063/1.4718706">.</a></text>
+<text top="948" left="468" width="368" height="12" font="0">[40] D. Tupkary, A. Dhar, M. Kulkarni, and A. Purkayastha, Funda-</text>
+<text top="966" left="496" width="340" height="12" font="0">mental limitations in Lindblad descriptions of systems weakly</text>
+<text top="983" left="496" width="92" height="12" font="0">coupled to baths,</text>
+<text top="983" left="590" width="70" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevA.105.032208">Phys. Rev. A</a></text>
+<text top="983" left="664" width="20" height="12" font="4"><a href="https://doi.org/10.1103/PhysRevA.105.032208"><b>105</b></a></text>
+<text top="983" left="684" width="86" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevA.105.032208">, 032208 (2022)</a></text>
+<text top="983" left="770" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevA.105.032208">.</a></text>
+<text top="1000" left="468" width="368" height="12" font="0">[41] T. Colas, J. Grain, and V. Vennin, Benchmarking the cosmolog-</text>
+<text top="1017" left="496" width="117" height="12" font="0">ical master equations,</text>
+<text top="1017" left="616" width="79" height="12" font="3"><a href="https://doi.org/10.1140/epjc/s10052-022-11047-9">Eur. Phys. J. C</a></text>
+<text top="1017" left="698" width="13" height="12" font="4"><a href="https://doi.org/10.1140/epjc/s10052-022-11047-9"><b>82</b></a></text>
+<text top="1017" left="712" width="73" height="12" font="3"><a href="https://doi.org/10.1140/epjc/s10052-022-11047-9">, 1085 (2022)</a></text>
+<text top="1017" left="785" width="3" height="12" font="0"><a href="https://doi.org/10.1140/epjc/s10052-022-11047-9">.</a></text>
+<text top="1034" left="468" width="368" height="12" font="0">[42] D. Farina and V. Giovannetti, Open-quantum-system dynamics:</text>
+<text top="1051" left="496" width="340" height="12" font="0">Recovering positivity of the Redfield equation via the partial</text>
+<text top="1069" left="496" width="123" height="12" font="0">secular approximation,</text>
+<text top="1069" left="622" width="70" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevA.100.012107">Phys. Rev. A</a></text>
+<text top="1069" left="695" width="20" height="12" font="4"><a href="https://doi.org/10.1103/PhysRevA.100.012107"><b>100</b></a></text>
+<text top="1069" left="715" width="86" height="12" font="3"><a href="https://doi.org/10.1103/PhysRevA.100.012107">, 012107 (2019)</a></text>
+<text top="1069" left="802" width="3" height="12" font="0"><a href="https://doi.org/10.1103/PhysRevA.100.012107">.</a></text>
+<text top="1086" left="468" width="368" height="12" font="0">[43] E. Mozgunov and D. Lidar, Completely positive master equa-</text>
+<text top="1103" left="496" width="271" height="12" font="0"><a href="https://doi.org/10.22331/q-2020-02-06-227">tion for arbitrary driving and small level spacing,</a></text>
+<text top="1103" left="771" width="50" height="12" font="3"><a href="https://doi.org/10.22331/q-2020-02-06-227">Quantum</a></text>
+<text top="1103" left="825" width="7" height="12" font="4"><a href="https://doi.org/10.22331/q-2020-02-06-227"><b>4</b></a></text>
+<text top="1103" left="832" width="3" height="12" font="3"><a href="https://doi.org/10.22331/q-2020-02-06-227">,</a></text>
+<text top="1120" left="496" width="59" height="12" font="3"><a href="https://doi.org/10.22331/q-2020-02-06-227">227 (2020)</a></text>
+<text top="1120" left="555" width="3" height="12" font="0"><a href="https://doi.org/10.22331/q-2020-02-06-227">.</a></text>
+<text top="1156" left="425" width="58" height="12" font="0">042214-38</text>
+</page>
+</pdf2xml>
