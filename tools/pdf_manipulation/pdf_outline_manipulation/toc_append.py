@@ -39,17 +39,25 @@ def read_toc_from_file(toc_file_name, offset=0):
                 print(f"Warning: Line format incorrect, skipping line: '{line.strip()}'")
     return toc
 
-def create_bookmarks_from_toc(pdf_file_name, toc_file_name="toc.txt", offset=0):
+def create_bookmarks_from_toc(pdf_file_path, toc_file_name="toc.txt", offset=0):
     """
     Creates a new PDF with bookmarks added based on the TOC provided in a text file.
     
     Args:
-        pdf_file_name (str): Name of the original PDF file (without .pdf extension).
+        pdf_file_path (str): Path or name of the original PDF file.
         toc_file_name (str): Path to the TOC text file. Default is 'toc.txt'.
         offset (int): Number of pages to offset the page numbers.
     """
-    original_pdf = f"{pdf_file_name}.pdf"
-    new_pdf = f"{pdf_file_name}_with_toc.pdf"
+    if not pdf_file_path:
+        print("Error: PDF file name is required.")
+        return
+
+    original_pdf = pdf_file_path
+    if not original_pdf.lower().endswith(".pdf"):
+        original_pdf = f"{original_pdf}.pdf"
+
+    base_path = os.path.splitext(original_pdf)[0]
+    new_pdf = f"{base_path}_with_toc.pdf"
     
     try:
         doc = fitz.open(original_pdf)
@@ -93,23 +101,14 @@ if __name__ == "__main__":
 
     print("=== PDF TOC Bookmark Adder ===")
     
-    # Prompt for the PDF file name
-    pdf_file_name = input("Enter the name of the PDF file (without .pdf extension): ").strip()
-    if not pdf_file_name:
-        print("No name entered. Searching for the first available PDF file...")
-        # Iterate through all files and directories in the current folder
-        for file in os.listdir('.'):
-            # Check if the item is a file and ends with .pdf (case-insensitive)
-            if os.path.isfile(file) and file.lower().endswith('.pdf'):
-                # os.path.splitext() splits 'filename.pdf' into ('filename', '.pdf')
-                # We take the first part [0] of that tuple.
-                pdf_file_name = os.path.splitext(file)[0]
-                print(f"Found and selected: '{pdf_file_name}.pdf'")
-                break  # Exit the loop after finding the first matching file
-        
-        # This check handles the case where no input was given AND no PDF was found
-        if not pdf_file_name:
-            print("Error: No PDF file found in the directory.")
+    if len(sys.argv) < 2:
+        print("Usage: python toc_append.py file.pdf")
+        sys.exit(1)
+
+    pdf_file_path = sys.argv[1].strip()
+    if not pdf_file_path:
+        print("Error: PDF file name is required.")
+        sys.exit(1)
     
     
     # Prompt for the TOC file name
@@ -126,5 +125,4 @@ if __name__ == "__main__":
         offset = 1
     
     # Create bookmarks from the TOC
-    create_bookmarks_from_toc(pdf_file_name, toc_file_name, offset)
-
+    create_bookmarks_from_toc(pdf_file_path, toc_file_name, offset)
