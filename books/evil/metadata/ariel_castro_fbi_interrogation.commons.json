@@ -1,0 +1,105 @@
+{
+  "api_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AAriel+Castro+FBI+interrogation.png&prop=imageinfo&iiprop=url%7Csize%7Cmime%7Csha1%7Cextmetadata&iiextmetadatalanguage=en",
+  "commons_title": "File:Ariel Castro FBI interrogation.png",
+  "description_url": "https://commons.wikimedia.org/wiki/File:Ariel_Castro_FBI_interrogation.png",
+  "extmetadata": {
+    "Artist": {
+      "source": "commons-desc-page",
+      "value": "FBI"
+    },
+    "Assessments": {
+      "hidden": "",
+      "source": "commons-categories",
+      "value": ""
+    },
+    "AttributionRequired": {
+      "hidden": "",
+      "source": "commons-desc-page",
+      "value": "false"
+    },
+    "Categories": {
+      "hidden": "",
+      "source": "commons-categories",
+      "value": "Federal Bureau of Investigation|Federal Bureau of Investigation images|Ariel Castro kidnappings|Images with extracted images"
+    },
+    "CommonsMetadataExtension": {
+      "hidden": "",
+      "source": "extension",
+      "value": 1.2
+    },
+    "Copyrighted": {
+      "hidden": "",
+      "source": "commons-desc-page",
+      "value": "False"
+    },
+    "Credit": {
+      "source": "commons-desc-page",
+      "value": "USA Today, <a rel=\"nofollow\" class=\"external free\" href=\"https://www.usatoday.com/story/news/nation/2013/09/06/ariel-castro-fbi-tapes-today-abduction-cleveland/2775205/\">https://www.usatoday.com/story/news/nation/2013/09/06/ariel-castro-fbi-tapes-today-abduction-cleveland/2775205/</a>"
+    },
+    "DateTime": {
+      "hidden": "",
+      "source": "mediawiki-metadata",
+      "value": "2013-09-07 03:58:30"
+    },
+    "DateTimeOriginal": {
+      "source": "commons-desc-page",
+      "value": "2013-05"
+    },
+    "ImageDescription": {
+      "source": "commons-desc-page",
+      "value": "Shows Ariel Castro during his interrogation with the FBI. Screen capture from the video posted on USA Today.com, cropped to remove the Today Show captions and graphics."
+    },
+    "License": {
+      "hidden": "",
+      "source": "commons-templates",
+      "value": "pd"
+    },
+    "LicenseShortName": {
+      "hidden": "",
+      "source": "commons-desc-page",
+      "value": "Public domain"
+    },
+    "ObjectName": {
+      "source": "mediawiki-metadata",
+      "value": "Ariel Castro FBI interrogation"
+    },
+    "Permission": {
+      "hidden": "",
+      "source": "commons-desc-page",
+      "value": "<i>This image or file is a work of a <a href=\"//commons.wikimedia.org/wiki/Federal_Bureau_of_Investigation\" title=\"Federal Bureau of Investigation\">Federal Bureau of Investigation</a> employee, taken or made as part of that person's official duties. As a <a href=\"https://en.wikipedia.org/wiki/Work_of_the_United_States_Government\" class=\"extiw\" title=\"en:Work of the United States Government\">work</a> of the <a href=\"https://en.wikipedia.org/wiki/Federal_Government_of_the_United_States\" class=\"extiw\" title=\"en:Federal Government of the United States\">U.S. federal government</a>, the image is in the <b><a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">public domain</a></b> in the United States.</i>"
+    },
+    "Restrictions": {
+      "hidden": "",
+      "source": "commons-desc-page",
+      "value": ""
+    },
+    "UsageTerms": {
+      "source": "commons-desc-page",
+      "value": "Public domain"
+    }
+  },
+  "extmetadata_text": {
+    "Artist": "FBI",
+    "Assessments": "",
+    "AttributionRequired": "false",
+    "Categories": "Federal Bureau of Investigation|Federal Bureau of Investigation images|Ariel Castro kidnappings|Images with extracted images",
+    "CommonsMetadataExtension": "1.2",
+    "Copyrighted": "False",
+    "Credit": "USA Today, https://www.usatoday.com/story/news/nation/2013/09/06/ariel-castro-fbi-tapes-today-abduction-cleveland/2775205/",
+    "DateTime": "2013-09-07 03:58:30",
+    "DateTimeOriginal": "2013-05",
+    "ImageDescription": "Shows Ariel Castro during his interrogation with the FBI. Screen capture from the video posted on USA Today.com, cropped to remove the Today Show captions and graphics.",
+    "License": "pd",
+    "LicenseShortName": "Public domain",
+    "ObjectName": "Ariel Castro FBI interrogation",
+    "Permission": "This image or file is a work of a Federal Bureau of Investigation employee, taken or made as part of that person's official duties. As a work of the U.S. federal government, the image is in the public domain in the United States.",
+    "Restrictions": "",
+    "UsageTerms": "Public domain"
+  },
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ariel_Castro_FBI_interrogation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "height": 488,
+  "mime": "image/png",
+  "sha1": "29b24768448396ad10a60970666a7119d57c4e6f",
+  "size": 374998,
+  "width": 1006
+}

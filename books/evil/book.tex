@@ -1,0 +1,59 @@
+\documentclass[11pt,oneside]{book}
+
+\usepackage[letterpaper,margin=0.85in]{geometry}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{xurl}
+
+\definecolor{rulegray}{HTML}{3B3B3B}
+\definecolor{softgray}{HTML}{F1F3F4}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlist[itemize]{leftmargin=1.4em,itemsep=0.2em,topsep=0.2em}
+\renewcommand{\arraystretch}{1.22}
+\titleformat{\chapter}[block]
+  {\normalfont\Large\bfseries}{Chapter \thechapter}{0.8em}{}
+\titlespacing*{\chapter}{0pt}{0pt}{0.8em}
+
+\newcommand{\caseheader}[2]{%
+  {\large\bfseries Case #1}\hfill{\small #2}\par
+  \vspace{0.3em}\hrule height 0.6pt\vspace{1em}
+}
+
+\newcommand{\profilefield}[2]{%
+  \textbf{#1} & #2\\
+}
+
+\newcommand{\checkbox}{\fbox{\rule{0pt}{1.05em}\hspace{1.05em}}}
+
+\begin{document}
+
+\frontmatter
+\pagenumbering{gobble}
+
+\begin{titlepage}
+  \centering
+  \vspace*{1.2in}
+  {\Huge\bfseries Identifying Evil\par}
+  \vspace{0.35in}
+  {\Large Puzzle Book Draft\par}
+  \vfill
+  {\large First build: one profile chapter\par}
+  \vspace{0.2in}
+  {\small Generated from local TeX profile files and documented source assets.\par}
+\end{titlepage}
+
+\pagenumbering{roman}
+\tableofcontents
+
+\mainmatter
+
+\input{profiles/ariel_castro}
+
+\end{document}
