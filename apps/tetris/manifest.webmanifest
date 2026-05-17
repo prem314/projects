@@ -1,0 +1,20 @@
+{
+  "name": "Pixel Tetris",
+  "short_name": "Tetris",
+  "id": "/",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#111316",
+  "theme_color": "#111316",
+  "description": "A lightweight pixel-art Tetris game.",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

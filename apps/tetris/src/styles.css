@@ -1,0 +1,254 @@
+:root {
+  color-scheme: dark;
+  --bg: #111316;
+  --panel: #1a2026;
+  --panel-2: #202832;
+  --line: #303844;
+  --text: #f5f0df;
+  --muted: #a9b1bd;
+  --accent: #31d7f4;
+  --danger: #ff5c70;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  overflow-x: hidden;
+}
+
+button {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #242d36;
+  color: var(--text);
+  min-height: 44px;
+  padding: 0 16px;
+  font: 700 15px/1 ui-monospace, Menlo, Consolas, monospace;
+  touch-action: none;
+  user-select: none;
+}
+
+button:active,
+button.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #071114;
+}
+
+.app {
+  width: min(1080px, 100%);
+  min-height: 100dvh;
+  margin: 0 auto;
+  padding: clamp(12px, 2vw, 24px);
+  display: grid;
+  grid-template-columns: minmax(240px, 420px) minmax(220px, 300px);
+  grid-template-rows: 1fr auto;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-shell {
+  width: min(100%, 420px);
+  aspect-ratio: 1 / 2;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #0b0e12;
+  overflow: hidden;
+}
+
+#gameCanvas,
+#nextCanvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+}
+
+.panel {
+  align-self: stretch;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 14px;
+}
+
+.title-row,
+.action-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-row {
+  justify-content: space-between;
+}
+
+h1,
+h2 {
+  margin: 0;
+  letter-spacing: 0;
+}
+
+h1 {
+  font: 800 34px/1 ui-monospace, Menlo, Consolas, monospace;
+}
+
+h2 {
+  color: var(--muted);
+  font: 800 13px/1 ui-monospace, Menlo, Consolas, monospace;
+  text-transform: uppercase;
+}
+
+.icon-button {
+  width: 48px;
+  padding: 0;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.stats > div,
+.next-box {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.stats > div {
+  min-height: 72px;
+  padding: 12px;
+  display: grid;
+  align-content: space-between;
+}
+
+.stats span {
+  color: var(--muted);
+  font: 700 12px/1 ui-monospace, Menlo, Consolas, monospace;
+  text-transform: uppercase;
+}
+
+.stats strong {
+  display: block;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font: 800 24px/1.05 ui-monospace, Menlo, Consolas, monospace;
+}
+
+.next-box {
+  min-height: 190px;
+  padding: 12px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+}
+
+.action-row button {
+  flex: 1 1 0;
+}
+
+.touch-controls {
+  grid-column: 1 / -1;
+  width: min(100%, 720px);
+  justify-self: center;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(54px, 1fr));
+  gap: 8px;
+}
+
+.touch-controls button {
+  min-height: 58px;
+  font-size: 23px;
+}
+
+.touch-controls .wide {
+  grid-column: span 1;
+  background: #2d333d;
+  color: #fff3c4;
+}
+
+@media (max-width: 760px) {
+  body {
+    overflow: hidden;
+  }
+
+  .app {
+    min-height: 100dvh;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr) auto auto;
+    align-content: stretch;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .board-shell {
+    justify-self: center;
+    width: min(74vw, 31dvh, 360px);
+    max-height: 100%;
+  }
+
+  .panel {
+    grid-row: 2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-self: auto;
+  }
+
+  .title-row {
+    grid-column: 1 / -1;
+  }
+
+  .stats {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .stats > div {
+    min-height: 56px;
+    padding: 8px;
+  }
+
+  .stats span {
+    font-size: 10px;
+  }
+
+  .stats strong {
+    font-size: clamp(15px, 4vw, 20px);
+  }
+
+  .next-box {
+    display: none;
+  }
+
+  .action-row {
+    align-self: stretch;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .touch-controls {
+    grid-row: 3;
+    gap: 7px;
+  }
+
+  .touch-controls button {
+    min-height: 54px;
+    padding: 0 8px;
+  }
+}
