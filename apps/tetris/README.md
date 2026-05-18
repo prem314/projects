@@ -20,6 +20,26 @@ Open the printed `Phone URL` in Chrome on your Android phone. Keep the computer 
 
 For a proper home-screen install with offline play, serve the same files from an HTTPS URL. The manifest and service worker are already included for that path. The LAN HTTP URL is the fastest way to play on a phone immediately.
 
+## Build APK
+
+Install the Android command-line SDK once:
+
+```sh
+./tools/install-android-sdk.sh
+```
+
+Build a debug APK for direct sharing:
+
+```sh
+./tools/build-debug-apk.sh
+```
+
+The APK is created at:
+
+```text
+app/build/outputs/apk/debug/app-debug.apk
+```
+
 ## Test
 
 ```sh

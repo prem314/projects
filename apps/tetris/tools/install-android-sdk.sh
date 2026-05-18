@@ -36,6 +36,7 @@ mv "${DOWNLOAD_DIR}/cmdline-tools-expanded/cmdline-tools/"* "${SDK_ROOT}/cmdline
 export ANDROID_HOME="${SDK_ROOT}"
 export ANDROID_SDK_ROOT="${SDK_ROOT}"
 export PATH="${ANDROID_HOME}/cmdline-tools/latest/bin:${ANDROID_HOME}/platform-tools:${PATH}"
+export JAVA_HOME="$(dirname "$(dirname "$(readlink -f "$(command -v javac)")")")"
 
 if ! grep -q 'ANDROID_HOME="$HOME/Android/Sdk"' "$HOME/.bashrc"; then
   echo "Adding Android SDK environment variables to ~/.bashrc..."
@@ -48,13 +49,17 @@ EOF
 fi
 
 echo "Accepting Android SDK licenses..."
+set +o pipefail
 yes | sdkmanager --sdk_root="${ANDROID_HOME}" --licenses >/dev/null
+set -o pipefail
 
 echo "Installing minimal Android SDK packages..."
+set +o pipefail
 yes | sdkmanager --sdk_root="${ANDROID_HOME}" \
   "platforms;android-35" \
   "build-tools;35.0.1" \
   "platform-tools"
+set -o pipefail
 
 echo
 echo "Done."
@@ -66,3 +71,4 @@ echo "For this terminal session, run:"
 echo "  export ANDROID_HOME=\"${SDK_ROOT}\""
 echo "  export ANDROID_SDK_ROOT=\"${SDK_ROOT}\""
 echo "  export PATH=\"${SDK_ROOT}/cmdline-tools/latest/bin:${SDK_ROOT}/platform-tools:\$PATH\""
+echo "  export JAVA_HOME=\"${JAVA_HOME}\""

@@ -1,7 +1,12 @@
 node_modules/
 coverage/
 dist/
+build/
+app/build/
 .DS_Store
 *.log
+*.apk
+*.idsig
+*.keystore
 !assets/
 !assets/icon.svg
